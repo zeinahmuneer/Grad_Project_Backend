@@ -41,7 +41,7 @@ const generalCRUDController = (Model, modelName) => ({
       });
 
       res.status(200).json({
-        message: `${modelName}s retrieved successfully`,
+        message: `${modelName}s retrieved successfully :)`,
         data: records,
       });
     } catch (error) {

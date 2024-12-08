@@ -886,7 +886,7 @@ class ModelInitializer {
 ModelInitializer.init();
 
 // Sync database
-// ModelInitializer.syncDatabase();
+//ModelInitializer.syncDatabase(); //run this if you add a new table
 
 // Export models and sync method
 module.exports = {
