@@ -15,6 +15,20 @@ const app = express();
 const server = http.Server(app);
 const DB = dbService().start();
 
+//load database with initial data
+const loadInitialDataFromJson = require("./data/data");
+
+//Run the data loader
+// loadInitialDataFromJson()
+//   .then(() => {
+//     console.log("Data initialization complete");
+//     process.exit(0);
+//   })
+//   .catch((error) => {
+//     console.error("Initialization failed:", error);
+//     process.exit(1);
+//   });
+
 const {
   collegeRouter,
   majorsRouter,
@@ -61,3 +75,4 @@ server.listen(config.port, () => {
     console.error("Database connection failed:", err);
   });
 });
+// Test Pull Request

@@ -183,7 +183,7 @@ class ModelInitializer {
     Courses.init(
       {
         Course_ID: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           primaryKey: true,
         },
         Course_Name: DataTypes.STRING,
@@ -231,9 +231,18 @@ class ModelInitializer {
     class Schedule extends Model {}
     Schedule.init(
       {
-        College_ID: DataTypes.INTEGER,
-        Course_ID: DataTypes.INTEGER,
-        Course_Section: DataTypes.INTEGER,
+        College_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Course_ID: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        Course_Section: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
         Section_Limit: DataTypes.INTEGER,
         No_of_Reg_Stud: DataTypes.INTEGER,
         Days: DataTypes.STRING,
@@ -254,9 +263,18 @@ class ModelInitializer {
     class PlanCourses extends Model {}
     PlanCourses.init(
       {
-        Major_ID: DataTypes.INTEGER,
-        Plan_Year: DataTypes.INTEGER,
-        Course_ID: DataTypes.INTEGER,
+        Major_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Plan_Year: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Course_ID: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
         Requisite_ID: DataTypes.INTEGER,
       },
       {
@@ -272,10 +290,22 @@ class ModelInitializer {
     class Prerequisite extends Model {}
     Prerequisite.init(
       {
-        Major_ID: DataTypes.INTEGER,
-        Plan_Year: DataTypes.INTEGER,
-        Course_ID: DataTypes.INTEGER,
-        Prerequisite_Course_ID: DataTypes.INTEGER,
+        Major_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Plan_Year: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Course_ID: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        Prerequisite_Course_ID: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
       },
       {
         sequelize,
@@ -292,8 +322,14 @@ class ModelInitializer {
     class DegreeSemesterHours extends Model {}
     DegreeSemesterHours.init(
       {
-        Semester_ID: DataTypes.INTEGER,
-        Degree_ID: DataTypes.INTEGER,
+        Semester_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Degree_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
         Min: DataTypes.INTEGER,
         Max: DataTypes.INTEGER,
       },
@@ -310,10 +346,19 @@ class ModelInitializer {
     class Mark extends Model {}
     Mark.init(
       {
-        Student_ID: DataTypes.INTEGER,
-        Academic_Year: DataTypes.INTEGER,
-        Semester_Type: DataTypes.INTEGER,
-        Course_ID: DataTypes.INTEGER,
+        Student_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Academic_Year: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        Semester_Type: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Course_ID: DataTypes.TEXT,
         Mark: DataTypes.INTEGER,
         Grade_State: DataTypes.INTEGER,
       },
@@ -325,8 +370,14 @@ class ModelInitializer {
     class CurrentSemester extends Model {}
     CurrentSemester.init(
       {
-        Student_ID: DataTypes.INTEGER,
-        Course_ID: DataTypes.INTEGER,
+        Student_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Course_ID: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
         Section: DataTypes.INTEGER,
         Semester_Type: DataTypes.INTEGER,
         Subject_State: DataTypes.INTEGER,
@@ -348,9 +399,18 @@ class ModelInitializer {
     class AvgMark extends Model {}
     AvgMark.init(
       {
-        Student_ID: DataTypes.INTEGER,
-        Academic_Year: DataTypes.INTEGER,
-        Semester_Type: DataTypes.INTEGER,
+        Student_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Academic_Year: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        Semester_Type: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
         Semester_Avg: DataTypes.INTEGER,
         Acc_Avg: DataTypes.INTEGER,
       },
@@ -367,8 +427,14 @@ class ModelInitializer {
     class Calendar extends Model {}
     Calendar.init(
       {
-        Academic_Year: DataTypes.INTEGER,
-        Semester_Type: DataTypes.INTEGER,
+        Academic_Year: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        Semester_Type: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
         Reg_Start: DataTypes.DATEONLY,
         Reg_End: DataTypes.DATEONLY,
         Withdrawal_Start: DataTypes.DATEONLY,
@@ -389,9 +455,18 @@ class ModelInitializer {
     class PostponeRequest extends Model {}
     PostponeRequest.init(
       {
-        Student_ID: DataTypes.INTEGER,
-        From_Academic_Year: DataTypes.INTEGER,
-        From_Semester_Type: DataTypes.INTEGER,
+        Student_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        From_Academic_Year: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        From_Semester_Type: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
         No_of_Semesters: DataTypes.INTEGER,
         Reason: DataTypes.STRING,
         Timestamp: DataTypes.DATE,
@@ -409,9 +484,18 @@ class ModelInitializer {
     class OverloadRequest extends Model {}
     OverloadRequest.init(
       {
-        Student_ID: DataTypes.INTEGER,
-        Academic_Year: DataTypes.INTEGER,
-        Semester_Type: DataTypes.INTEGER,
+        Student_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Academic_Year: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        Semester_Type: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
         No_of_Hours: DataTypes.INTEGER,
         Timestamp: DataTypes.DATE,
       },
@@ -428,11 +512,23 @@ class ModelInitializer {
     class SynchronizationRequest extends Model {}
     SynchronizationRequest.init(
       {
-        Student_ID: DataTypes.INTEGER,
-        Academic_Year: DataTypes.INTEGER,
-        Semester_Type: DataTypes.INTEGER,
-        CoreCourse_ID: DataTypes.INTEGER,
-        Prereq_Course_ID: DataTypes.INTEGER,
+        Student_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Academic_Year: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        Semester_Type: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        CoreCourse_ID: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        Prereq_Course_ID: DataTypes.TEXT,
         Timestamp: DataTypes.DATE,
       },
       {
@@ -448,10 +544,22 @@ class ModelInitializer {
     class SubstituteRequest extends Model {}
     SubstituteRequest.init(
       {
-        Student_ID: DataTypes.INTEGER,
-        Academic_Year: DataTypes.INTEGER,
-        Semester_Type: DataTypes.INTEGER,
-        OrgCourse_ID: DataTypes.INTEGER,
+        Student_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Academic_Year: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        Semester_Type: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        OrgCourse_ID: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
         Flag: DataTypes.INTEGER,
         Timestamp: DataTypes.DATE,
       },
@@ -468,11 +576,23 @@ class ModelInitializer {
     class Substitute extends Model {}
     Substitute.init(
       {
-        Student_ID: DataTypes.INTEGER,
-        Academic_Year: DataTypes.INTEGER,
-        Semester_Type: DataTypes.INTEGER,
-        OrgCourse_ID: DataTypes.INTEGER,
-        SubstCourse_ID: DataTypes.INTEGER,
+        Student_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Academic_Year: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        Semester_Type: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        OrgCourse_ID: {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
+        SubstCourse_ID: DataTypes.TEXT,
       },
       {
         sequelize,
@@ -886,7 +1006,7 @@ class ModelInitializer {
 ModelInitializer.init();
 
 // Sync database
-//ModelInitializer.syncDatabase(); //run this if you add a new table
+// ModelInitializer.syncDatabase(); //run this if you add a new table
 
 // Export models and sync method
 module.exports = {
