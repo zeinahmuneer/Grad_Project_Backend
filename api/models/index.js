@@ -187,7 +187,7 @@ class ModelInitializer {
           primaryKey: true,
         },
         Course_Name: DataTypes.STRING,
-        Credited_hours: DataTypes.INTEGER,
+        Credited_Hours: DataTypes.INTEGER,
         Success_ID: DataTypes.INTEGER,
       },
       {
@@ -204,14 +204,14 @@ class ModelInitializer {
     Students.init(
       {
         Student_ID: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           primaryKey: true,
         },
         Student_Name: DataTypes.STRING,
         Degree_ID: DataTypes.INTEGER,
         Major_ID: DataTypes.INTEGER,
         Plan_Year: DataTypes.INTEGER,
-        Acceptance_Year: DataTypes.INTEGER,
+        Acceptance_Year: DataTypes.TEXT,
         Acceptance_Semester: DataTypes.INTEGER,
         Password: DataTypes.STRING,
         Email: DataTypes.STRING,
@@ -347,7 +347,7 @@ class ModelInitializer {
     Mark.init(
       {
         Student_ID: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           primaryKey: true,
         },
         Academic_Year: {
@@ -371,7 +371,7 @@ class ModelInitializer {
     CurrentSemester.init(
       {
         Student_ID: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           primaryKey: true,
         },
         Course_ID: {
@@ -400,7 +400,7 @@ class ModelInitializer {
     AvgMark.init(
       {
         Student_ID: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           primaryKey: true,
         },
         Academic_Year: {
@@ -456,7 +456,7 @@ class ModelInitializer {
     PostponeRequest.init(
       {
         Student_ID: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           primaryKey: true,
         },
         From_Academic_Year: {
@@ -485,7 +485,7 @@ class ModelInitializer {
     OverloadRequest.init(
       {
         Student_ID: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           primaryKey: true,
         },
         Academic_Year: {
@@ -513,7 +513,7 @@ class ModelInitializer {
     SynchronizationRequest.init(
       {
         Student_ID: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           primaryKey: true,
         },
         Academic_Year: {
@@ -545,7 +545,7 @@ class ModelInitializer {
     SubstituteRequest.init(
       {
         Student_ID: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           primaryKey: true,
         },
         Academic_Year: {
@@ -577,7 +577,7 @@ class ModelInitializer {
     Substitute.init(
       {
         Student_ID: {
-          type: DataTypes.INTEGER,
+          type: DataTypes.TEXT,
           primaryKey: true,
         },
         Academic_Year: {
@@ -965,34 +965,34 @@ class ModelInitializer {
   static async syncDatabase() {
     try {
       // Sync base and simple types
-      await this.SuccessType.sync({ force: false });
-      await this.RequisiteType.sync({ force: false });
-      await this.SubjectState.sync({ force: false });
-      await this.GradeState.sync({ force: false });
-      await this.Flags.sync({ force: false });
-      await this.DegreeType.sync({ force: false });
-      await this.SemesterType.sync({ force: false });
+      await this.SuccessType.sync({ force: true });
+      await this.RequisiteType.sync({ force: true });
+      await this.SubjectState.sync({ force: true });
+      await this.GradeState.sync({ force: true });
+      await this.Flags.sync({ force: true });
+      await this.DegreeType.sync({ force: true });
+      await this.SemesterType.sync({ force: true });
 
       // Sync core entities
-      await this.College.sync({ force: false });
-      await this.Majors.sync({ force: false });
-      await this.Courses.sync({ force: false });
-      await this.Students.sync({ force: false });
+      await this.College.sync({ force: true });
+      await this.Majors.sync({ force: true });
+      await this.Courses.sync({ force: true });
+      await this.Students.sync({ force: true });
 
       // Sync additional tables
-      await this.Schedule.sync({ force: false });
-      await this.PlanCourses.sync({ force: false });
-      await this.Prerequisite.sync({ force: false });
-      await this.DegreeSemesterHours.sync({ force: false });
-      await this.Mark.sync({ force: false });
-      await this.CurrentSemester.sync({ force: false });
-      await this.AvgMark.sync({ force: false });
-      await this.Calendar.sync({ force: false });
-      await this.PostponeRequest.sync({ force: false });
-      await this.OverloadRequest.sync({ force: false });
-      await this.SynchronizationRequest.sync({ force: false });
-      await this.SubstituteRequest.sync({ force: false });
-      await this.Substitute.sync({ force: false });
+      await this.Schedule.sync({ force: true });
+      await this.PlanCourses.sync({ force: true });
+      await this.Prerequisite.sync({ force: true });
+      await this.DegreeSemesterHours.sync({ force: true });
+      await this.Mark.sync({ force: true });
+      await this.CurrentSemester.sync({ force: true });
+      await this.AvgMark.sync({ force: true });
+      await this.Calendar.sync({ force: true });
+      await this.PostponeRequest.sync({ force: true });
+      await this.OverloadRequest.sync({ force: true });
+      await this.SynchronizationRequest.sync({ force: true });
+      await this.SubstituteRequest.sync({ force: true });
+      await this.Substitute.sync({ force: true });
 
       console.log("Database synchronized successfully");
     } catch (error) {

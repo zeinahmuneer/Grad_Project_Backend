@@ -18,7 +18,7 @@ const DB = dbService().start();
 //load database with initial data
 const loadInitialDataFromJson = require("./data/data");
 
-//Run the data loader
+// Run the data loader
 // loadInitialDataFromJson()
 //   .then(() => {
 //     console.log("Data initialization complete");
