@@ -105,12 +105,12 @@
     {
       "College_ID": 22,
       "Major_ID": 2231,
-      "Major_name": "Software Engineering"
+      "Major_Name": "Software Engineering"
     },
     {
       "College_ID": 22,
       "Major_ID": 2211,
-      "Major_name": "Computer Science"
+      "Major_Name": "Computer Science"
     }
   ],
   "degree_semester_hours": [
@@ -137,1744 +137,1756 @@
     {
       "Course_ID": "0304096",
       "Course_Name": "Computer skills Exam",
-      "Credited_hours": 0,
-      "Success_type": 1
+      "Success_ID": 1,
+      "Credited_Hours": 0
     },
     {
       "Course_ID": "1801096",
       "Course_Name": "Arabic language Exam",
-      "Credited_hours": 0,
-      "Success_type": 1
+      "Success_ID": 1,
+      "Credited_Hours": 0
     },
     {
       "Course_ID": "1802096",
       "Course_Name": "English language Exam",
-      "Credited_hours": 0,
-      "Success_type": 1
+      "Success_ID": 1,
+      "Credited_Hours": 0
     },
     {
       "Course_ID": "0304099",
       "Course_Name": "Computer skills 99",
-      "Credited_hours": 0,
-      "Success_type": 1
+      "Success_ID": 1,
+      "Credited_Hours": 0
     },
     {
       "Course_ID": "1801099",
       "Course_Name": "Arabic language 99",
-      "Credited_hours": 0,
-      "Success_type": 1
+      "Success_ID": 1,
+      "Credited_Hours": 0
     },
     {
       "Course_ID": "1802099",
       "Course_Name": "English language 99",
-      "Credited_hours": 0,
-      "Success_type": 1
+      "Success_ID": 1,
+      "Credited_Hours": 0
     },
     {
       "Course_ID": "0101173",
       "Course_Name": "Military science",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0809103",
       "Course_Name": "Life skills",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "1600106",
       "Course_Name": "Social studies",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "1801102",
       "Course_Name": "Arabic language skills",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "1802103",
       "Course_Name": "English language skills",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2100102",
       "Course_Name": "Entrepreneurship and innovation",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0500103",
       "Course_Name": "Human rights in Islam",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0500106",
       "Course_Name": "Contemporary Islamic issues",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0706100",
       "Course_Name": "Law in our life",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0709101",
       "Course_Name": "Fundamentals of psychology",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "1601104",
       "Course_Name": "Introduction to domestic violence",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "1602104",
       "Course_Name": "Jordan's geography",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2100100",
       "Course_Name": "Work ethics",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2109103",
       "Course_Name": "Interaction skills",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0403120",
       "Course_Name": "Traffic safety",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0405101",
       "Course_Name": "Digital education",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2200100",
       "Course_Name": "Web applications and social media",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2200110",
       "Course_Name": "Libraries and information",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0301101",
       "Course_Name": "Calculus1",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211121",
       "Course_Name": "Introduction to programming",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211123",
       "Course_Name": "Object oriented programming",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211211",
       "Course_Name": "Data structure",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211261",
       "Course_Name": "Introduction to database",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2212351",
       "Course_Name": "Computer and network security",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2221111",
       "Course_Name": "Introduction to information technology",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2222111",
       "Course_Name": "Discrete mathematics",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231301",
       "Course_Name": "Computer ethics and interaction skills",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0301131",
       "Course_Name": "Principles of statistics and probabilities",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0405131",
       "Course_Name": "Digital Logic Design",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0405231",
       "Course_Name": "Fundamentals of computer architecture",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211122",
       "Course_Name": "Introduction to programming lab",
-      "Credited_hours": 1,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 1
     },
     {
       "Course_ID": "2211124",
       "Course_Name": "Object oriented programming lab",
-      "Credited_hours": 1,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 1
     },
     {
       "Course_ID": "2211212",
       "Course_Name": "Algorithms",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211214",
       "Course_Name": "Algorithms lab",
-      "Credited_hours": 1,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 1
     },
     {
       "Course_ID": "2211262",
       "Course_Name": "Introduction to database lab",
-      "Credited_hours": 1,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 1
     },
     {
       "Course_ID": "2211263",
       "Course_Name": "Database programming",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211351",
       "Course_Name": "Computer networks",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211431",
       "Course_Name": "Operating systems",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211353",
       "Course_Name": "Computer and network security lab",
-      "Credited_hours": 1,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 1
     },
     {
       "Course_ID": "2221223",
       "Course_Name": "Web applications programming",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2221321",
       "Course_Name": "Visual programming",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2221362",
       "Course_Name": "Software Project Management",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2221371",
       "Course_Name": "Human computer interaction",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2221441",
       "Course_Name": "Database Management System",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231221",
       "Course_Name": "Requirements engineering",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231222",
       "Course_Name": "Software documentation",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231261",
       "Course_Name": "Fundamentals of software engineering",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231331",
       "Course_Name": "Software architecture and design",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231341",
       "Course_Name": "Software modeling",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231361",
       "Course_Name": "Web engineering",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231381",
       "Course_Name": "Practical Training",
-      "Credited_hours": 0,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 0
     },
     {
       "Course_ID": "2231442",
       "Course_Name": "Software development lab",
-      "Credited_hours": 1,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 1
     },
     {
       "Course_ID": "2231443",
       "Course_Name": "Software Quality Assurance and Testing",
-      "Credited_hours": 3,
-      "Success_type": 1
+      "Success_ID": 1,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231491",
       "Course_Name": "Graduation Project 1",
-      "Credited_hours": 1,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 1
     },
     {
       "Course_ID": "2231492",
       "Course_Name": "Graduation Project 2",
-      "Credited_hours": 2,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 2
     },
     {
       "Course_ID": "2221221",
       "Course_Name": "Programming in java",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231391",
       "Course_Name": "Special Topic in Software Engineering",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231421",
       "Course_Name": "Software maintenance",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2231462",
       "Course_Name": "Software product line engineering",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0301242",
       "Course_Name": "Linear algebra 1",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0301323",
       "Course_Name": "Numerical analysis 1",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0302101",
       "Course_Name": "General physics 1",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "0302111",
       "Course_Name": "General physics 1 lab",
-      "Credited_hours": 1,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 1
     },
     {
       "Course_ID": "2211311",
       "Course_Name": "Theory of Computation",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211361",
       "Course_Name": "Digital graphics",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211362",
       "Course_Name": "Digital Image Processing",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211381",
       "Course_Name": "Practical Training",
-      "Credited_hours": 0,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 0
     },
     {
       "Course_ID": "2211451",
       "Course_Name": "Computer wireless networks",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2211491",
       "Course_Name": "Graduation Project 1",
-      "Credited_hours": 1,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 1
     },
     {
       "Course_ID": "2211492",
       "Course_Name": "Graduation Project 2",
-      "Credited_hours": 2,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 2
     },
     {
       "Course_ID": "2221462",
       "Course_Name": "Distributed and parallel systems",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2222261",
       "Course_Name": "Introduction to artificial intelligence",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2222362",
       "Course_Name": "Introduction to artificial intelligence lab",
-      "Credited_hours": 1,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 1
     },
     {
       "Course_ID": "2211391",
       "Course_Name": "Special Topic in Computer Science",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
     },
     {
       "Course_ID": "2212251",
       "Course_Name": "Fundamentals of cyber security",
-      "Credited_hours": 3,
-      "Success_type": 2
+      "Success_ID": 2,
+      "Credited_Hours": 3
+    },
+    {
+      "Course_ID": "2212271",
+      "Course_Name": "Cryptography",
+      "Success_ID": 2,
+      "Credited_Hours": 3
     }
   ],
   "plan_courses": [
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0304096",
-      "Requisite_id": 0
+      "Requisite_ID": 0,
+      "Plan_Year": 2022
+    },
+    {
+      "Major_ID": 2211,
+      "Course_ID": "2212271",
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "1801096",
-      "Requisite_id": 0
+      "Requisite_ID": 0,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "1802096",
-      "Requisite_id": 0
+      "Requisite_ID": 0,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0304099",
-      "Requisite_id": 1
+      "Requisite_ID": 1,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "1801099",
-      "Requisite_id": 1
+      "Requisite_ID": 1,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "1802099",
-      "Requisite_id": 1
+      "Requisite_ID": 1,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0101173",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0809103",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "1600106",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "1801102",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "1802103",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2100102",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0500103",
-      "Requisite_id": 3
+      "Requisite_ID": 3,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0500106",
-      "Requisite_id": 3
+      "Requisite_ID": 3,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0706100",
-      "Requisite_id": 3
+      "Requisite_ID": 3,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0709101",
-      "Requisite_id": 3
+      "Requisite_ID": 3,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "1601104",
-      "Requisite_id": 4
+      "Requisite_ID": 4,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "1602104",
-      "Requisite_id": 4
+      "Requisite_ID": 4,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2100100",
-      "Requisite_id": 4
+      "Requisite_ID": 4,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2109103",
-      "Requisite_id": 4
+      "Requisite_ID": 4,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0403120",
-      "Requisite_id": 5
+      "Requisite_ID": 5,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0405101",
-      "Requisite_id": 5
+      "Requisite_ID": 5,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2200100",
-      "Requisite_id": 5
+      "Requisite_ID": 5,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2200110",
-      "Requisite_id": 5
+      "Requisite_ID": 5,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0301101",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211121",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211123",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211211",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211261",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2212351",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2221111",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2222111",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231301",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0301131",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0405131",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0405231",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211122",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211124",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211212",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211214",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211262",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211263",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211351",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211431",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2211353",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2221223",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2221321",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2221362",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2221371",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2221441",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231221",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231222",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231261",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231331",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231341",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231361",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231381",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231442",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231443",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231491",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231492",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2221221",
-      "Requisite_id": 8
+      "Requisite_ID": 8,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231391",
-      "Requisite_id": 8
+      "Requisite_ID": 8,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231421",
-      "Requisite_id": 8
+      "Requisite_ID": 8,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2231462",
-      "Requisite_id": 8
+      "Requisite_ID": 8,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0304096",
-      "Requisite_id": 0
+      "Requisite_ID": 0,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "1801096",
-      "Requisite_id": 0
+      "Requisite_ID": 0,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "1802096",
-      "Requisite_id": 0
+      "Requisite_ID": 0,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0304099",
-      "Requisite_id": 1
+      "Requisite_ID": 1,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "1801099",
-      "Requisite_id": 1
+      "Requisite_ID": 1,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "1802099",
-      "Requisite_id": 1
+      "Requisite_ID": 1,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0101173",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0809103",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "1600106",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "1801102",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "1802103",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2100102",
-      "Requisite_id": 2
+      "Requisite_ID": 2,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0500103",
-      "Requisite_id": 3
+      "Requisite_ID": 3,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0500106",
-      "Requisite_id": 3
+      "Requisite_ID": 3,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0706100",
-      "Requisite_id": 3
+      "Requisite_ID": 3,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0709101",
-      "Requisite_id": 3
+      "Requisite_ID": 3,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "1601104",
-      "Requisite_id": 4
+      "Requisite_ID": 4,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "1602104",
-      "Requisite_id": 4
+      "Requisite_ID": 4,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2100100",
-      "Requisite_id": 4
+      "Requisite_ID": 4,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2109103",
-      "Requisite_id": 4
+      "Requisite_ID": 4,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0403120",
-      "Requisite_id": 5
+      "Requisite_ID": 5,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0405101",
-      "Requisite_id": 5
+      "Requisite_ID": 5,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2200100",
-      "Requisite_id": 5
+      "Requisite_ID": 5,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2200110",
-      "Requisite_id": 5
+      "Requisite_ID": 5,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0301101",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211121",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211123",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211211",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211261",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2212351",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2221111",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2222111",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2231301",
-      "Requisite_id": 6
+      "Requisite_ID": 6,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0301131",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0301242",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0405131",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0405231",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211122",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211124",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211212",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211214",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211262",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211263",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211351",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211431",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211353",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2221223",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2221321",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0301323",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0302101",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0302111",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211311",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211361",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211362",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211381",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211451",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211491",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211492",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2221462",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2222261",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2222362",
-      "Requisite_id": 7
+      "Requisite_ID": 7,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "2221221",
-      "Requisite_id": 8
+      "Requisite_ID": 8,
+      "Plan_Year": 2022
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2211391",
-      "Requisite_id": 8
+      "Requisite_ID": 8,
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "2212251",
-      "Requisite_id": 8
+      "Requisite_ID": 8,
+      "Plan_Year": 2021
     }
   ],
   "prerequisite": [
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 1801102,
-      "Prerequisite_course_ID": 1801096
+      "Course_ID": "1801102",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "1801096"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 1802099,
-      "Prerequisite_course_ID": 1802096
+      "Course_ID": "1802099",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "1802096"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 1801102,
-      "Prerequisite_course_ID": 1801102
+      "Course_ID": "1801102",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "1801102"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 1802103,
-      "Prerequisite_course_ID": 1802099
+      "Course_ID": "1802103",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "1802099"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211123,
-      "Prerequisite_course_ID": 2211121
+      "Course_ID": "2211123",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211121"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211211,
-      "Prerequisite_course_ID": 2211123
+      "Course_ID": "2211211",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211261,
-      "Prerequisite_course_ID": 2211123
+      "Course_ID": "2211261",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2212351,
-      "Prerequisite_course_ID": 2211351
+      "Course_ID": "2212351",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211351"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0301131",
-      "Prerequisite_course_ID": "0301101"
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "0301101"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0405131",
-      "Prerequisite_course_ID": 2221111
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2221111"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
       "Course_ID": "0405231",
-      "Prerequisite_course_ID": "0405131"
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "0405131"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211122,
-      "Prerequisite_course_ID": 2211121
+      "Course_ID": "2211122",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211121"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211124,
-      "Prerequisite_course_ID": 2211123
+      "Course_ID": "2211124",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211212,
-      "Prerequisite_course_ID": 2211211
+      "Course_ID": "2211212",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211211"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211214,
-      "Prerequisite_course_ID": 2211212
+      "Course_ID": "2211214",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211212"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211262,
-      "Prerequisite_course_ID": 2211261
+      "Course_ID": "2211262",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211263,
-      "Prerequisite_course_ID": 2211261
+      "Course_ID": "2211263",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211431,
-      "Prerequisite_course_ID": 2211212
+      "Course_ID": "2211431",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211212"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211351,
-      "Prerequisite_course_ID": 2211263
+      "Course_ID": "2211351",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211263"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2211353,
-      "Prerequisite_course_ID": 2212351
+      "Course_ID": "2211353",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2212351"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2221223,
-      "Prerequisite_course_ID": 2211261
+      "Course_ID": "2221223",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2221321,
-      "Prerequisite_course_ID": 2221223
+      "Course_ID": "2221321",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2221223"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2221362,
-      "Prerequisite_course_ID": 2231261
+      "Course_ID": "2221362",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231261"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2221371,
-      "Prerequisite_course_ID": 2221362
+      "Course_ID": "2221371",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2221362"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2221441,
-      "Prerequisite_course_ID": 2211263
+      "Course_ID": "2221441",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211263"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231221,
-      "Prerequisite_course_ID": 2231261
+      "Course_ID": "2231221",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231261"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231222,
-      "Prerequisite_course_ID": 2231221
+      "Course_ID": "2231222",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231221"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231261,
-      "Prerequisite_course_ID": 2211261
+      "Course_ID": "2231261",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231331,
-      "Prerequisite_course_ID": 2231221
+      "Course_ID": "2231331",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231221"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231341,
-      "Prerequisite_course_ID": 2231222
+      "Course_ID": "2231341",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231222"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231361,
-      "Prerequisite_course_ID": 2231221
+      "Course_ID": "2231361",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231221"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231442,
-      "Prerequisite_course_ID": 2231443
+      "Course_ID": "2231442",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231443"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231443,
-      "Prerequisite_course_ID": 2231331
+      "Course_ID": "2231443",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231331"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231491,
-      "Prerequisite_course_ID": 2231381
+      "Course_ID": "2231491",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231381"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231492,
-      "Prerequisite_course_ID": 2231491
+      "Course_ID": "2231492",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231491"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2221221,
-      "Prerequisite_course_ID": 2211123
+      "Course_ID": "2221221",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231421,
-      "Prerequisite_course_ID": 2231331
+      "Course_ID": "2231421",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231331"
     },
     {
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Course_ID": 2231462,
-      "Prerequisite_course_ID": 2231331
+      "Course_ID": "2231462",
+      "Plan_Year": 2022,
+      "Prerequisite_Course_ID": "2231331"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 1801102,
-      "Prerequisite_course_ID": 1801096
+      "Course_ID": "1801102",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "1801096"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 1802099,
-      "Prerequisite_course_ID": 1802096
+      "Course_ID": "1802099",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "1802096"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 1801102,
-      "Prerequisite_course_ID": 1801102
+      "Course_ID": "1801102",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "1801102"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 1802103,
-      "Prerequisite_course_ID": 1802099
+      "Course_ID": "1802103",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "1802099"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211123,
-      "Prerequisite_course_ID": 2211121
+      "Course_ID": "2211123",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211121"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211211,
-      "Prerequisite_course_ID": 2211123
+      "Course_ID": "2211211",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211261,
-      "Prerequisite_course_ID": 2211123
+      "Course_ID": "2211261",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2212351,
-      "Prerequisite_course_ID": 2211351
+      "Course_ID": "2212351",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211351"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0301131",
-      "Prerequisite_course_ID": "0301101"
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "0301101"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0405131",
-      "Prerequisite_course_ID": 2221111
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2221111"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 405231,
-      "Prerequisite_course_ID": 405131
+      "Course_ID": "0405231",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "0405131"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211122,
-      "Prerequisite_course_ID": 2211121
+      "Course_ID": "2211122",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211121"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211124,
-      "Prerequisite_course_ID": 2211123
+      "Course_ID": "2211124",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211212,
-      "Prerequisite_course_ID": 2211211
+      "Course_ID": "2211212",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211211"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211214,
-      "Prerequisite_course_ID": 2211212
+      "Course_ID": "2211214",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211212"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211262,
-      "Prerequisite_course_ID": 2211261
+      "Course_ID": "2211262",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211263,
-      "Prerequisite_course_ID": 2211261
+      "Course_ID": "2211263",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211431,
-      "Prerequisite_course_ID": 2211212
+      "Course_ID": "2211431",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211212"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211351,
-      "Prerequisite_course_ID": 2211263
+      "Course_ID": "2211351",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211263"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211353,
-      "Prerequisite_course_ID": 2212351
+      "Course_ID": "2211353",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2212351"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2221223,
-      "Prerequisite_course_ID": 2211261
+      "Course_ID": "2221223",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2221321,
-      "Prerequisite_course_ID": 2221223
+      "Course_ID": "2221321",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2221223"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0301242",
-      "Prerequisite_course_ID": "0301131"
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "0301131"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0301323",
-      "Prerequisite_course_ID": 2222111
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2222111"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
       "Course_ID": "0302111",
-      "Prerequisite_course_ID": "0302101"
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "0302101"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211311,
-      "Prerequisite_course_ID": 2211212
+      "Course_ID": "2211311",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211212"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211361,
-      "Prerequisite_course_ID": 2211212
+      "Course_ID": "2211361",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211212"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211362,
-      "Prerequisite_course_ID": 2211361
+      "Course_ID": "2211362",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211361"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211451,
-      "Prerequisite_course_ID": 2212351
+      "Course_ID": "2211451",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2212351"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211491,
-      "Prerequisite_course_ID": 2211491
+      "Course_ID": "2211491",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211491"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2211492,
-      "Prerequisite_course_ID": 2211491
+      "Course_ID": "2211492",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211491"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2221462,
-      "Prerequisite_course_ID": 2222261
+      "Course_ID": "2221462",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2222261"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2222261,
-      "Prerequisite_course_ID": 2211431
+      "Course_ID": "2222261",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211431"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2222362,
-      "Prerequisite_course_ID": 2222261
+      "Course_ID": "2222362",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2222261"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2231261,
-      "Prerequisite_course_ID": 2211261
+      "Course_ID": "2231261",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2212271,
-      "Prerequisite_course_ID": 2211212
+      "Course_ID": "2212271",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211212"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2212251,
-      "Prerequisite_course_ID": 2221111
+      "Course_ID": "2212251",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2221111"
     },
     {
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Course_ID": 2221221,
-      "Prerequisite_course_ID": 2211123
+      "Course_ID": "2221221",
+      "Plan_Year": 2021,
+      "Prerequisite_Course_ID": "2211123"
     }
   ],
   "students": [
     {
       "Student_ID": "120222231166",
-      "Student_name": "Zeinah Muneer Abd Almajeed Al Adaileh",
+      "Student_Name": "Zeinah Muneer Abd Almajeed Al Adaileh",
       "Degree_ID": 1,
       "Major_ID": 2231,
-      "Plan_year": 2022,
-      "Acceptance_year": "2022/2023",
-      "Acceptance_semester": 3,
+      "Plan_Year": 2022,
+      "Acceptance_Year": "2022/2023",
+      "Acceptance_Semester": 3,
       "Password": "112233",
       "Email": "120222231166@mutah.edu.jo"
     },
     {
       "Student_ID": "120212211015",
-      "Student_name": "Zeinah Muneer Abd Almajeed Al Adaileh",
+      "Student_Name": "Zeinah Muneer Abd Almajeed Al Adaileh",
       "Degree_ID": 1,
       "Major_ID": 2211,
-      "Plan_year": 2021,
-      "Acceptance_year": "2021/2022",
-      "Acceptance_semester": 1,
+      "Plan_Year": 2021,
+      "Acceptance_Year": "2021/2022",
+      "Acceptance_Semester": 1,
       "Password": "112233",
       "Email": "120212211015@mutah.edu.jo"
     }

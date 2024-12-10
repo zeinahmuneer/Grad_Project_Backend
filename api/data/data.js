@@ -34,7 +34,30 @@ async function loadInitialDataFromJson() {
     const dataFilePath = path.join(__dirname, "data.json");
     const rawData = fs.readFileSync(dataFilePath, "utf8");
     const data = JSON.parse(rawData);
+    // data.courses.forEach((course) => {
+    //   course.Success_ID = course.Success_type;
+    //   course.Credited_Hours = course.Credited_hours;
+    //   delete course.Success_type;
+    //   delete course.Credited_hours;
+    // });
+    // data.plan_courses.forEach((plan_course) => {
+    //   plan_course.Requisite_ID = plan_course.Requisite_id;
+    //   plan_course.Plan_Year = plan_course.Plan_year;
+    //   delete plan_course.Requisite_id;
+    //   delete plan_course.Plan_year;
+    // });
+    // data.prerequisite.forEach((prerequisite) => {
+    //   prerequisite.Plan_Year = prerequisite.Plan_year;
+    //   prerequisite.Course_ID = prerequisite.Course_ID.toString();
+    //   prerequisite.Prerequisite_Course_ID =
+    //     prerequisite.Prerequisite_course_ID.toString();
+    //   delete prerequisite.Plan_year;
+    //   delete prerequisite.Prerequisite_course_ID;
+    // });
+    // // Write the modified data back to the JSON file
+    // fs.writeFileSync(dataFilePath, JSON.stringify(data, null, 2), "utf8");
 
+    // return;
     // Load Colleges
     if (data.colleges) {
       await College.bulkCreate(data.colleges, { ignoreDuplicates: true });

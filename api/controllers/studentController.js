@@ -3,6 +3,7 @@ const {
   generalCRUDController,
 } = require("../controllers/generalCRUDController");
 const { Students, Majors, AvgMark, SemesterType } = require("../models/index");
+const studentService = require("../services/student.service");
 
 const StudentsController = {
   ...generalCRUDController(Students, "Student"),
@@ -37,6 +38,64 @@ const StudentsController = {
         message: "Student performance retrieved successfully",
         name: " fadsfa ",
         data: performance,
+      });
+    } catch (error) {
+      handleServerError(res, error);
+    }
+  },
+
+  // Login student
+  login: async (req, res) => {
+    try {
+      const student = await Students.findOne({
+        // Hash the password before comparing
+        // Don't forget to use the same hashing algorithm in the backend and in the database
+        where: {
+          Student_ID: req.body.Student_ID,
+          Password: req.body.Password,
+        },
+      });
+
+      if (!student) {
+        return res.status(404).json({
+          message: "Student not found",
+          authenticated: false,
+        });
+      }
+
+      res.status(200).json({
+        message: "Student logged in successfully",
+        authenticated: true,
+        data: student,
+      });
+    } catch (error) {
+      handleServerError(res, error);
+    }
+  },
+
+  // Is Student Graduate or not
+  isGraduate: async (req, res) => {
+    try {
+      const student = await Students.findOne({
+        where: {
+          Student_ID: req.params.studentId,
+        },
+      });
+
+      if (!student) {
+        return res.status(404).json({
+          message: "Student not found",
+        });
+      }
+      const isStudentGraduate = await studentService.isGraduate(
+        student.Student_ID,
+        student.Plan_Year
+      );
+      res.status(200).json({
+        message: "Student found",
+        data: {
+          isStudentGraduate,
+        },
       });
     } catch (error) {
       handleServerError(res, error);
