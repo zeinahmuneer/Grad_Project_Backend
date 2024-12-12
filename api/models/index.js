@@ -199,6 +199,38 @@ class ModelInitializer {
     );
     this.Courses = Courses;
 
+    // Required_CH_of_Req Table
+class Required_CH_of_Req extends Model {}
+Required_CH_of_Req.init(
+  {
+    Major_ID: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+    },
+    Plan_Year: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+    },
+    Requisite_ID: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+    },
+    No_of_CH_of_req: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+  },
+  {
+    sequelize,
+    modelName: 'Required_CH_of_Req',
+    tableName: 'Required_CH_of_Req',
+    timestamps: false,
+  }
+);
+this.Required_CH_of_Req = Required_CH_of_Req;
+
+
+
     // Students
     class Students extends Model {}
     Students.init(
@@ -641,6 +673,7 @@ class ModelInitializer {
       as: "ParentCollege",
     });
 
+
     // Majors and Prerequisite Associations
     Majors.hasMany(Prerequisite, {
       foreignKey: "Major_ID",
@@ -978,6 +1011,7 @@ class ModelInitializer {
       await this.Majors.sync({ force: true });
       await this.Courses.sync({ force: true });
       await this.Students.sync({ force: true });
+      await this.Required_CH_of_Req.sync({ force: true });
 
       // Sync additional tables
       await this.Schedule.sync({ force: true });
@@ -1006,7 +1040,7 @@ class ModelInitializer {
 ModelInitializer.init();
 
 // Sync database
-// ModelInitializer.syncDatabase(); //run this if you add a new table
+//ModelInitializer.syncDatabase(); //run this if you add a new table
 
 // Export models and sync method
 module.exports = {
@@ -1034,5 +1068,6 @@ module.exports = {
   Flags: ModelInitializer.Flags,
   DegreeType: ModelInitializer.DegreeType,
   SemesterType: ModelInitializer.SemesterType,
+  Required_CH_of_Req: ModelInitializer.Required_CH_of_Req,
   syncDatabase: ModelInitializer.syncDatabase,
 };

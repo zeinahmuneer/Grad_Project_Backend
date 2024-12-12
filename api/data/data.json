@@ -113,6 +113,116 @@
       "Major_Name": "Computer Science"
     }
   ],
+  "Required_CH_of_Req": [
+    {
+      "Major_ID": 2231,
+      "Plan_Year": 2022,
+      "Requisite_ID": 0,
+      "No_of_CH_of_req": 0
+    },
+    {
+      "Major_ID": 2231,
+      "Plan_Year": 2022,
+      "Requisite_ID": 1,
+      "No_of_CH_of_req": 0
+    },
+    {
+      "Major_ID": 2231,
+      "Plan_Year": 2022,
+      "Requisite_ID": 2,
+      "No_of_CH_of_req": 18
+    },
+    {
+      "Major_ID": 2231,
+      "Plan_Year": 2022,
+      "Requisite_ID": 3,
+      "No_of_CH_of_req": 3
+    },
+    {
+      "Major_ID": 2231,
+      "Plan_Year": 2022,
+      "Requisite_ID": 4,
+      "No_of_CH_of_req": 3
+    },
+    {
+      "Major_ID": 2231,
+      "Plan_Year": 2022,
+      "Requisite_ID": 5,
+      "No_of_CH_of_req": 3
+    },
+    {
+      "Major_ID": 2231,
+      "Plan_Year": 2022,
+      "Requisite_ID": 6,
+      "No_of_CH_of_req": 27
+    },
+    {
+      "Major_ID": 2231,
+      "Plan_Year": 2022,
+      "Requisite_ID": 7,
+      "No_of_CH_of_req": 69
+    },
+    {
+      "Major_ID": 2231,
+      "Plan_Year": 2022,
+      "Requisite_ID": 8,
+      "No_of_CH_of_req": 9
+    },
+    {
+      "Major_ID": 2211,
+      "Plan_Year": 2021,
+      "Requisite_ID": 0,
+      "No_of_CH_of_req": 0
+    },
+    {
+      "Major_ID": 2211,
+      "Plan_Year": 2021,
+      "Requisite_ID": 1,
+      "No_of_CH_of_req": 0
+    },
+    {
+      "Major_ID": 2211,
+      "Plan_Year": 2021,
+      "Requisite_ID": 2,
+      "No_of_CH_of_req": 18
+    },
+    {
+      "Major_ID": 2211,
+      "Plan_Year": 2021,
+      "Requisite_ID": 3,
+      "No_of_CH_of_req": 3
+    },
+    {
+      "Major_ID": 2211,
+      "Plan_Year": 2021,
+      "Requisite_ID": 4,
+      "No_of_CH_of_req": 3
+    },
+    {
+      "Major_ID": 2211,
+      "Plan_Year": 2021,
+      "Requisite_ID": 5,
+      "No_of_CH_of_req": 3
+    },
+    {
+      "Major_ID": 2211,
+      "Plan_Year": 2021,
+      "Requisite_ID": 6,
+      "No_of_CH_of_req": 27
+    },
+    {
+      "Major_ID": 2211,
+      "Plan_Year": 2021,
+      "Requisite_ID": 7,
+      "No_of_CH_of_req": 69
+    },
+    {
+      "Major_ID": 2211,
+      "Plan_Year": 2021,
+      "Requisite_ID": 8,
+      "No_of_CH_of_req": 9
+    }
+  ],
   "degree_semester_hours": [
     {
       "Semester_ID": 1,

@@ -58,6 +58,7 @@ async function loadInitialDataFromJson() {
     // fs.writeFileSync(dataFilePath, JSON.stringify(data, null, 2), "utf8");
 
     // return;
+
     // Load Colleges
     if (data.colleges) {
       await College.bulkCreate(data.colleges, { ignoreDuplicates: true });

@@ -4,6 +4,7 @@ const {
 } = require("../controllers/generalCRUDController");
 const { Students, Majors, AvgMark, SemesterType } = require("../models/index");
 const studentService = require("../services/student.service");
+const bcrypt = require('bcrypt');
 
 const StudentsController = {
   ...generalCRUDController(Students, "Student"),
@@ -47,7 +48,6 @@ const StudentsController = {
   // Login student
   login: async (req, res) => {
     try {
-      console.log("request",req);
       const student = await Students.findOne({
         // Hash the password before comparing
         // Don't forget to use the same hashing algorithm in the backend and in the database
@@ -55,8 +55,9 @@ const StudentsController = {
           Student_ID: req.body.Student_ID,
           Password: req.body.Password,
         },
-      });
-      console.log("student",student);
+      }
+    );
+
       if (!student) {
         return res.status(404).json({
           message: "Student not found",
