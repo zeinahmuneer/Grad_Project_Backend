@@ -115,6 +115,7 @@ const generalCRUDController = (Model, modelName) => ({
       handleServerError(res, error);
     }
   },
+
 });
 
 module.exports = {

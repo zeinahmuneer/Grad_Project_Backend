@@ -49,22 +49,31 @@ const StudentsController = {
   login: async (req, res) => {
     try {
       const student = await Students.findOne({
-        // Hash the password before comparing
-        // Don't forget to use the same hashing algorithm in the backend and in the database
         where: {
           Student_ID: req.body.Student_ID,
-          Password: req.body.Password,
         },
-      }
-    );
-
+      });
+  
+      // Step 2: Check if student exists
       if (!student) {
         return res.status(404).json({
           message: "Student not found",
           authenticated: false,
         });
       }
-
+  
+      // Step 3: Compare the provided password with the hashed password in the database
+      const passwordMatch =  bcrypt.compareSync(req.body.Password, student.Password);
+  
+      // Step 4: Handle incorrect password
+      if (!passwordMatch) {
+        return res.status(401).json({
+          message: "Incorrect password",
+          authenticated: false,
+        });
+      }
+  
+      // Step 5: If everything is correct, return success response
       res.status(200).json({
         message: "Student logged in successfully",
         authenticated: true,

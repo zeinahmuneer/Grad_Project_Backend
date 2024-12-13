@@ -137,6 +137,7 @@ async function loadInitialDataFromJson() {
     if (data.students) {
       await Students.bulkCreate(data.students, { ignoreDuplicates: true });
     }
+    
     console.log("Initial data loaded successfully from JSON");
   } catch (error) {
     console.error("Error loading initial data from JSON:", error);
