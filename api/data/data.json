@@ -7,39 +7,39 @@
   ],
   "requisiteTypes": [
     {
-      "Requisite_ID": 1,
+      "Requisite_ID": 0,
       "Requisite_Type": "Proficiency exam"
     },
     {
-      "Requisite_ID": 2,
+      "Requisite_ID": 1,
       "Requisite_Type": "Supplemental"
     },
     {
-      "Requisite_ID": 3,
+      "Requisite_ID": 2,
       "Requisite_Type": "University compulsory requirement"
     },
     {
-      "Requisite_ID": 4,
+      "Requisite_ID": 3,
       "Requisite_Type": "Elective/ human sciences"
     },
     {
-      "Requisite_ID": 5,
+      "Requisite_ID": 4,
       "Requisite_Type": "Elective/social and economy"
     },
     {
-      "Requisite_ID": 6,
+      "Requisite_ID": 5,
       "Requisite_Type": "Elective/ scientific and technology"
     },
     {
-      "Requisite_ID": 7,
+      "Requisite_ID": 6,
       "Requisite_Type": "College compulsory requirement"
     },
     {
-      "Requisite_ID": 8,
+      "Requisite_ID": 7,
       "Requisite_Type": "Major compulsory requirement"
     },
     {
-      "Requisite_ID": 9,
+      "Requisite_ID": 8,
       "Requisite_Type": "Major elective"
     }
   ],
@@ -1986,7 +1986,7 @@
       "Plan_Year": 2022,
       "Acceptance_Year": "2022/2023",
       "Acceptance_Semester": 3,
-      "Password": "112233",
+      "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
       "Email": "120222231166@mutah.edu.jo"
     },
     {
@@ -1997,7 +1997,7 @@
       "Plan_Year": 2021,
       "Acceptance_Year": "2021/2022",
       "Acceptance_Semester": 1,
-      "Password": "112233",
+      "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
       "Email": "120212211015@mutah.edu.jo"
     }
   ]

@@ -25,6 +25,7 @@ const {
   Flags,
   DegreeType,
   SemesterType,
+  Required_CH_of_Req,
   syncDatabase,
 } = require("../models/index"); // Adjust the path to your models file
 
@@ -75,6 +76,14 @@ async function loadInitialDataFromJson() {
         ignoreDuplicates: true,
       });
     }
+
+       // Load Required_CH_of_Req 
+       if (data.Required_CH_of_Req) {
+        await Required_CH_of_Req.bulkCreate(data.Required_CH_of_Req, {
+          ignoreDuplicates: true,
+        });
+      }
+  
 
     // Load Subject States
     if (data.subjectStates) {

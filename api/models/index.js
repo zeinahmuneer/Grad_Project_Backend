@@ -663,6 +663,7 @@ class ModelInitializer {
       GradeState,
       Flags,
       RequisiteType,
+      Required_CH_of_Req,
     } = this;
 
     // College and Majors Associations
@@ -1066,7 +1067,7 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
 ModelInitializer.init();
 
 // Sync database
-ModelInitializer.syncDatabase(); //run this if you add a new table
+//ModelInitializer.syncDatabase(); //run this if you add a new table
 
 // Export models and sync method
 module.exports = {
