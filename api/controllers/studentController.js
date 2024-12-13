@@ -9,6 +9,38 @@ const bcrypt = require('bcrypt');
 const StudentsController = {
   ...generalCRUDController(Students, "Student"),
 
+// Get a single record by ID
+getById: async (req, res) => {
+  try {
+    const student = await Students.findByPk(req.params.id, {
+      // Optional: include associations if needed
+      // include: req.query.include ? JSON.parse(req.query.include) : []
+    });
+
+    if (!student) {
+      return res.status(404).json({
+        message: `Student not found`,
+      });
+    }
+
+    res.status(200).json({
+      message: `Student retrieved successfully`,
+      data: {
+        Student_ID:  student.Student_ID,
+       Student_Name:student.Student_Name,
+       Degree_ID:student.Degree_ID,
+       Major_ID:student.Major_ID,
+       Plan_Year:student.Plan_Year,
+       Acceptance_Year:student.Acceptance_Year,
+       Acceptance_Semester:student.Acceptance_Semester,
+       Email:student.Email
+      }
+    });
+  } catch (error) {
+    handleServerError(res, error);
+  }
+},
+
   // Get students by major
   getStudentsByMajor: async (req, res) => {
     try {
@@ -54,7 +86,7 @@ const StudentsController = {
         },
       });
   
-      // Step 2: Check if student exists
+      // Check if student exists
       if (!student) {
         return res.status(404).json({
           message: "Student not found",
@@ -62,7 +94,7 @@ const StudentsController = {
         });
       }
   
-      // Step 3: Compare the provided password with the hashed password in the database
+      // Compare the provided password with the hashed password in the database
       const passwordMatch =  bcrypt.compareSync(req.body.Password, student.Password);
   
       // Step 4: Handle incorrect password
@@ -72,12 +104,22 @@ const StudentsController = {
           authenticated: false,
         });
       }
-  
+
+ 
       // Step 5: If everything is correct, return success response
       res.status(200).json({
         message: "Student logged in successfully",
         authenticated: true,
-        data: student,
+        data: {
+         Student_ID:  student.Student_ID,
+        Student_Name:student.Student_Name,
+        Degree_ID:student.Degree_ID,
+        Major_ID:student.Major_ID,
+        Plan_Year:student.Plan_Year,
+        Acceptance_Year:student.Acceptance_Year,
+        Acceptance_Semester:student.Acceptance_Semester,
+        Email:student.Email
+        }
       });
     } catch (error) {
       handleServerError(res, error);
