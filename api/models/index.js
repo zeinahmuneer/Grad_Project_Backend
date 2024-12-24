@@ -31,6 +31,27 @@ class ModelInitializer {
     );
     this.SuccessType = SuccessType;
 
+
+        // Announcement Type
+        class AnnouncementType extends Model {}
+        AnnouncementType.init(
+          {
+            Announcement_Type_ID: {
+              type: DataTypes.INTEGER,
+              primaryKey: true,
+            },
+            Announcement_Type: DataTypes.STRING,
+          },
+          {
+            sequelize,
+            modelName: "Announcement_Type",
+            tableName: "Announcement_Type",
+            timestamps: false,
+          }
+        );
+        this.AnnouncementType = AnnouncementType;
+    
+
     // Required_CH_of_Req Table
     class Required_CH_of_Req extends Model {}
     Required_CH_of_Req.init(
@@ -230,6 +251,30 @@ class ModelInitializer {
     this.Courses = Courses;
 
 
+    // Announcement
+    class Announcement extends Model {}
+    Announcement.init(
+      {
+        Announcement_ID: {
+          type: DataTypes.INTEGER,
+          autoIncrement:true,
+          primaryKey: true,
+        },
+       Announcement_Type_ID: {
+       type: DataTypes.INTEGER,
+       allowNull: false,
+       },
+       Title: DataTypes.STRING,
+       Body: DataTypes.TEXT,
+      },
+      {
+        sequelize,
+        modelName: "Announcement",
+        tableName: "Announcement",
+        timestamps: false,
+      }
+    );
+    this.Announcement = Announcement;
 
 
 
@@ -242,6 +287,7 @@ class ModelInitializer {
           primaryKey: true,
         },
         Student_Name: DataTypes.STRING,
+        Student_Gender: DataTypes.STRING,
         Degree_ID: DataTypes.INTEGER,
         Major_ID: DataTypes.INTEGER,
         Plan_Year: DataTypes.INTEGER,
@@ -664,8 +710,22 @@ class ModelInitializer {
       Flags,
       RequisiteType,
       Required_CH_of_Req,
+      AnnouncementType,
+      Announcement,
     } = this;
 
+   
+  //Announcement and Announcement type associations
+  Announcement.belongsTo(AnnouncementType, {
+    foreignKey: 'Announcement_Type_ID',
+    as: 'Type',
+  });
+  AnnouncementType.hasMany(Announcement, {
+    foreignKey: 'Announcement_Type_ID',
+    as: 'Announcements',
+  });
+
+  
     // College and Majors Associations
     College.hasMany(Majors, {
       foreignKey: "College_ID",
@@ -1020,11 +1080,14 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
     });
   }
 
+
+
   // Synchronization method
   static async syncDatabase() {
     try {
       // Sync base and simple types
       await this.SuccessType.sync({ force: true });
+      await this.AnnouncementType.sync({ force: true });
       await this.RequisiteType.sync({ force: true });
       await this.SubjectState.sync({ force: true });
       await this.GradeState.sync({ force: true });
@@ -1037,7 +1100,9 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       await this.College.sync({ force: true });
       await this.Majors.sync({ force: true });
       await this.Courses.sync({ force: true });
+      await this.Announcement.sync({force:true});
       await this.Students.sync({ force: true });
+     
      
 
       // Sync additional tables
@@ -1096,5 +1161,7 @@ module.exports = {
   DegreeType: ModelInitializer.DegreeType,
   SemesterType: ModelInitializer.SemesterType,
   Required_CH_of_Req: ModelInitializer.Required_CH_of_Req,
+  AnnouncementType: ModelInitializer.AnnouncementType,
+  Announcement: ModelInitializer.Announcement,
   syncDatabase: ModelInitializer.syncDatabase,
 };

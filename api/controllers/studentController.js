@@ -41,6 +41,8 @@ getById: async (req, res) => {
   }
 },
 
+
+
   // Get students by major
   getStudentsByMajor: async (req, res) => {
     try {
@@ -77,6 +79,8 @@ getById: async (req, res) => {
     }
   },
 
+
+
   // Login student
   login: async (req, res) => {
     try {
@@ -97,7 +101,7 @@ getById: async (req, res) => {
       // Compare the provided password with the hashed password in the database
       const passwordMatch =  bcrypt.compareSync(req.body.Password, student.Password);
   
-      // Step 4: Handle incorrect password
+      // Handle incorrect password
       if (!passwordMatch) {
         return res.status(401).json({
           message: "Incorrect password",
@@ -106,13 +110,14 @@ getById: async (req, res) => {
       }
 
  
-      // Step 5: If everything is correct, return success response
+      // If everything is correct, return success response
       res.status(200).json({
         message: "Student logged in successfully",
         authenticated: true,
         data: {
          Student_ID:  student.Student_ID,
         Student_Name:student.Student_Name,
+        Student_Gender:student.Student_Gender,
         Degree_ID:student.Degree_ID,
         Major_ID:student.Major_ID,
         Plan_Year:student.Plan_Year,

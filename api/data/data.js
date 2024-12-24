@@ -26,6 +26,8 @@ const {
   DegreeType,
   SemesterType,
   Required_CH_of_Req,
+  AnnouncementType,
+  Announcement,
   syncDatabase,
 } = require("../models/index"); // Adjust the path to your models file
 
@@ -130,22 +132,56 @@ async function loadInitialDataFromJson() {
     if (data.majors) {
       await Majors.bulkCreate(data.majors, { ignoreDuplicates: true });
     }
-
+  //load degree semester hours
     if (data.degree_semester_hours) {
       await DegreeSemesterHours.bulkCreate(data.degree_semester_hours, {
         ignoreDuplicates: true,
       });
     }
-
+  //load prerequisite
     if (data.prerequisite) {
       await Prerequisite.bulkCreate(data.prerequisite, {
         ignoreDuplicates: true,
       });
     }
-
+   //loading students
     if (data.students) {
       await Students.bulkCreate(data.students, { ignoreDuplicates: true });
     }
+   //load marks
+    if (data.mark) { 
+      await Mark.bulkCreate(data.mark, { ignoreDuplicates: true });
+    }
+
+    //load calendar
+    if (data.calendar) { 
+      await Calendar.bulkCreate(data.calendar, { ignoreDuplicates: true });
+    }
+
+     //load currentSemester
+     if (data.calendar) { 
+      await CurrentSemester.bulkCreate(data.currentSemester, { ignoreDuplicates: true });
+    }
+
+    //load announcementType
+    if (data.announcementType) { 
+      await AnnouncementType.bulkCreate(data.announcementType, { ignoreDuplicates: true });
+    }
+
+
+      //load announcement
+      if (data.announcement) { 
+        await Announcement.bulkCreate(data.announcement, { ignoreDuplicates: true });
+      }
+
+
+      //load schedule
+      if (data.schedule) { 
+        await Schedule.bulkCreate(data.schedule, { ignoreDuplicates: true });
+      }
+
+
+
     
     console.log("Initial data loaded successfully from JSON");
   } catch (error) {

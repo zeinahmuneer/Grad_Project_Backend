@@ -246,493 +246,493 @@
   "courses": [
     {
       "Course_ID": "0304096",
-      "Course_Name": "Computer skills Exam",
+      "Course_Name": "امتحان مستوى في مهارات الحاسوب",
       "Success_ID": 1,
       "Credited_Hours": 0
     },
     {
       "Course_ID": "1801096",
-      "Course_Name": "Arabic language Exam",
+      "Course_Name": "امتحان مستوى في اللغة العربية",
       "Success_ID": 1,
       "Credited_Hours": 0
     },
     {
       "Course_ID": "1802096",
-      "Course_Name": "English language Exam",
+      "Course_Name": "امتحان مستوى في اللغة الأنجليزية",
       "Success_ID": 1,
       "Credited_Hours": 0
     },
     {
       "Course_ID": "0304099",
-      "Course_Name": "Computer skills 99",
+      "Course_Name": "مهارات حاسوب (99)",
       "Success_ID": 1,
       "Credited_Hours": 0
     },
     {
       "Course_ID": "1801099",
-      "Course_Name": "Arabic language 99",
+      "Course_Name": "اللغة العربية 99",
       "Success_ID": 1,
       "Credited_Hours": 0
     },
     {
       "Course_ID": "1802099",
-      "Course_Name": "English language 99",
+      "Course_Name": "اللغة الأنجليزية 99",
       "Success_ID": 1,
       "Credited_Hours": 0
     },
     {
       "Course_ID": "0101173",
-      "Course_Name": "Military science",
+      "Course_Name": "العلوم العسكرية",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0809103",
-      "Course_Name": "Life skills",
+      "Course_Name": "المهارات الحياتية والعملية",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "1600106",
-      "Course_Name": "Social studies",
+      "Course_Name": "التربية الوطنية والمسؤولية المجتمعية",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "1801102",
-      "Course_Name": "Arabic language skills",
+      "Course_Name": "مهارات اللغة العربية والتواصل",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "1802103",
-      "Course_Name": "English language skills",
+      "Course_Name": "مهارات اللغة الإنجليزية والتواصل",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2100102",
-      "Course_Name": "Entrepreneurship and innovation",
+      "Course_Name": "الريادة والابتكار",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0500103",
-      "Course_Name": "Human rights in Islam",
+      "Course_Name": "حقوق الانسان في الاسلام",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0500106",
-      "Course_Name": "Contemporary Islamic issues",
+      "Course_Name": "قضايا إسلامية معاصرة",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0706100",
-      "Course_Name": "Law in our life",
+      "Course_Name": "القانون في حياتنا",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
-      "Course_ID": "0709101",
-      "Course_Name": "Fundamentals of psychology",
+      "Course_ID": "0809101",
+      "Course_Name": "مبادئ علم نفس",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "1601104",
-      "Course_Name": "Introduction to domestic violence",
+      "Course_Name": "مدخل الى العنف الاسري",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "1602104",
-      "Course_Name": "Jordan's geography",
+      "Course_Name": "جغرافـيـة الاردن",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2100100",
-      "Course_Name": "Work ethics",
+      "Course_Name": "أخلاقيات العمل",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2109103",
-      "Course_Name": "Interaction skills",
+      "Course_Name": "مهارات الاتصال الحياتية",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0403120",
-      "Course_Name": "Traffic safety",
+      "Course_Name": "السلامة المرورية",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0405101",
-      "Course_Name": "Digital education",
+      "Course_Name": "الثقافة الرقمية",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2200100",
-      "Course_Name": "Web applications and social media",
+      "Course_Name": "تطبيقات الأنترنت وشبكات التواصل الأجتماعي",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2200110",
-      "Course_Name": "Libraries and information",
+      "Course_Name": "المكتبات والمعلومات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0301101",
-      "Course_Name": "Calculus1",
+      "Course_Name": "تفاضـــل وتكامـــل 1",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211121",
-      "Course_Name": "Introduction to programming",
+      "Course_Name": "مقدمة في البرمجة",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211123",
-      "Course_Name": "Object oriented programming",
+      "Course_Name": "البرمجة الشيئية الموجهة ( الهدفية )",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211211",
-      "Course_Name": "Data structure",
+      "Course_Name": "تركيب بيانات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211261",
-      "Course_Name": "Introduction to database",
+      "Course_Name": "مقدمة في قواعد البيانات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2212351",
-      "Course_Name": "Computer and network security",
+      "Course_Name": "أمن الحاسبات والشبكات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2221111",
-      "Course_Name": "Introduction to information technology",
+      "Course_Name": "مقدمه في تكنولوجيا المعلومات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2222111",
-      "Course_Name": "Discrete mathematics",
+      "Course_Name": "تراكيب متقطعة للحوسبه",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231301",
-      "Course_Name": "Computer ethics and interaction skills",
+      "Course_Name": "أخلاقيات الحاسوب و مهارات الاتصال",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0301131",
-      "Course_Name": "Principles of statistics and probabilities",
+      "Course_Name": "مبادىء في الاحصاء والاحتمالات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0405131",
-      "Course_Name": "Digital Logic Design",
+      "Course_Name": "تصميم الدوائر المنطقية",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0405231",
-      "Course_Name": "Fundamentals of computer architecture",
+      "Course_Name": "أساسيات معمارية الحاسوب لطلبة IT",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211122",
-      "Course_Name": "Introduction to programming lab",
+      "Course_Name": "مختبر مقدمة في البرمجة",
       "Success_ID": 2,
       "Credited_Hours": 1
     },
     {
       "Course_ID": "2211124",
-      "Course_Name": "Object oriented programming lab",
+      "Course_Name": "مختبر البرمجة الشيئية الموجهة ( الهدفية )",
       "Success_ID": 2,
       "Credited_Hours": 1
     },
     {
       "Course_ID": "2211212",
-      "Course_Name": "Algorithms",
+      "Course_Name": "خوارزميات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211214",
-      "Course_Name": "Algorithms lab",
+      "Course_Name": "مختبر خوارزميات",
       "Success_ID": 2,
       "Credited_Hours": 1
     },
     {
       "Course_ID": "2211262",
-      "Course_Name": "Introduction to database lab",
+      "Course_Name": "مختبر مقدمة في قواعد البيانات",
       "Success_ID": 2,
       "Credited_Hours": 1
     },
     {
       "Course_ID": "2211263",
-      "Course_Name": "Database programming",
+      "Course_Name": "برمجة قواعد البيانات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211351",
-      "Course_Name": "Computer networks",
+      "Course_Name": "شبكات الحاسوب",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211431",
-      "Course_Name": "Operating systems",
+      "Course_Name": "نظم التشغيل",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211353",
-      "Course_Name": "Computer and network security lab",
+      "Course_Name": "مختبرالشبكات وأمن المعلومات ",
       "Success_ID": 2,
       "Credited_Hours": 1
     },
     {
       "Course_ID": "2221223",
-      "Course_Name": "Web applications programming",
+      "Course_Name": "برمجة تطبيقات الانترنت",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2221321",
-      "Course_Name": "Visual programming",
+      "Course_Name": "البرمجة المرئية ",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2221362",
-      "Course_Name": "Software Project Management",
+      "Course_Name": "إدارة مشاريع برمجية",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2221371",
-      "Course_Name": "Human computer interaction",
+      "Course_Name": "تفاعل الانسان والحاسوب",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2221441",
-      "Course_Name": "Database Management System",
+      "Course_Name": "نظم إدارة قواعد البيانات ",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231221",
-      "Course_Name": "Requirements engineering",
+      "Course_Name": "هندسة المتطلبات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231222",
-      "Course_Name": "Software documentation",
+      "Course_Name": "توثيق البرمجيات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231261",
-      "Course_Name": "Fundamentals of software engineering",
+      "Course_Name": "أساسيات هندسة البرمجيات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231331",
-      "Course_Name": "Software architecture and design",
+      "Course_Name": "هيكلية البرمجيات وتصميمها",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231341",
-      "Course_Name": "Software modeling",
+      "Course_Name": "نمذجة البرمجيات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231361",
-      "Course_Name": "Web engineering",
+      "Course_Name": "هندسة البرمجيات لتطبيقات الويب ",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231381",
-      "Course_Name": "Practical Training",
+      "Course_Name": "التدريب الميداني",
       "Success_ID": 2,
       "Credited_Hours": 0
     },
     {
       "Course_ID": "2231442",
-      "Course_Name": "Software development lab",
+      "Course_Name": "مختبر تطوير البرمجيات ",
       "Success_ID": 2,
       "Credited_Hours": 1
     },
     {
       "Course_ID": "2231443",
-      "Course_Name": "Software Quality Assurance and Testing",
+      "Course_Name": "ضمان جودة البرمجيات وفحصها ",
       "Success_ID": 1,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231491",
-      "Course_Name": "Graduation Project 1",
+      "Course_Name": "مشروع تخرج (1)",
       "Success_ID": 2,
       "Credited_Hours": 1
     },
     {
       "Course_ID": "2231492",
-      "Course_Name": "Graduation Project 2",
+      "Course_Name": "مشروع تخرج (2)",
       "Success_ID": 2,
       "Credited_Hours": 2
     },
     {
       "Course_ID": "2221221",
-      "Course_Name": "Programming in java",
+      "Course_Name": "البرمجة بلغة  جافا",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231391",
-      "Course_Name": "Special Topic in Software Engineering",
+      "Course_Name": "موضوعات خاصة في هندسة البرمجيات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231421",
-      "Course_Name": "Software maintenance",
+      "Course_Name": "صيانة وتطوير البرمجيات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2231462",
-      "Course_Name": "Software product line engineering",
+      "Course_Name": "هندسة خط انتاج البرمجيات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0301242",
-      "Course_Name": "Linear algebra 1",
+      "Course_Name": "جبر خطي 1",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0301323",
-      "Course_Name": "Numerical analysis 1",
+      "Course_Name": "تحليل عددي 1",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0302101",
-      "Course_Name": "General physics 1",
+      "Course_Name": "فيزياء عامه 1",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "0302111",
-      "Course_Name": "General physics 1 lab",
+      "Course_Name": "فيزياء عامه عمليه 1",
       "Success_ID": 2,
       "Credited_Hours": 1
     },
     {
       "Course_ID": "2211311",
-      "Course_Name": "Theory of Computation",
+      "Course_Name": "نظرية حاسبات",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211361",
-      "Course_Name": "Digital graphics",
+      "Course_Name": "رسومات الحاسوب",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211362",
-      "Course_Name": "Digital Image Processing",
+      "Course_Name": "معالجة الصور الرقميه",
       "Success_ID": 2,
-      "Credited_Hours": 3
+      "Credited_Hours": 2
     },
     {
       "Course_ID": "2211381",
-      "Course_Name": "Practical Training",
+      "Course_Name": "التدريب الميداني",
       "Success_ID": 2,
       "Credited_Hours": 0
     },
     {
       "Course_ID": "2211451",
-      "Course_Name": "Computer wireless networks",
+      "Course_Name": "شبكات الحاسوب اللاسلكيه",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2211491",
-      "Course_Name": "Graduation Project 1",
+      "Course_Name": "مشروع تخرج (1)",
       "Success_ID": 2,
       "Credited_Hours": 1
     },
     {
       "Course_ID": "2211492",
-      "Course_Name": "Graduation Project 2",
+      "Course_Name": "مشروع تخرج (2)",
       "Success_ID": 2,
       "Credited_Hours": 2
     },
     {
       "Course_ID": "2221462",
-      "Course_Name": "Distributed and parallel systems",
+      "Course_Name": "النظم الموزعة و المتوازية",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2222261",
-      "Course_Name": "Introduction to artificial intelligence",
+      "Course_Name": "مقدمة في الذكاء الاصطناعي",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2222362",
-      "Course_Name": "Introduction to artificial intelligence lab",
+      "Course_Name": "مختبر مقدمة في الذكاء الاصطناعي",
       "Success_ID": 2,
       "Credited_Hours": 1
     },
     {
       "Course_ID": "2211391",
-      "Course_Name": "Special Topic in Computer Science",
+      "Course_Name": "موضوعات خاصة في علم الحاسوب",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2212251",
-      "Course_Name": "Fundamentals of cyber security",
+      "Course_Name": "أساسيات الامن السيبراني",
       "Success_ID": 2,
       "Credited_Hours": 3
     },
     {
       "Course_ID": "2212271",
-      "Course_Name": "Cryptography",
+      "Course_Name": "علم تشفير",
       "Success_ID": 2,
       "Credited_Hours": 3
     }
@@ -1125,7 +1125,7 @@
     {
       "Major_ID": 2231,
       "Course_ID": "2231421",
-      "Requisite_ID": 8,
+      "Requisite_ID": 7,
       "Plan_Year": 2022
     },
     {
@@ -1980,18 +1980,20 @@
   "students": [
     {
       "Student_ID": "120222231166",
-      "Student_Name": "Zeinah Muneer Abd Almajeed Al Adaileh",
+      "Student_Name": "زينة منير عبدالمجيد العضايلة",
+      "Student_Gender": "F",
       "Degree_ID": 1,
       "Major_ID": 2231,
       "Plan_Year": 2022,
       "Acceptance_Year": "2022/2023",
-      "Acceptance_Semester": 3,
+      "Acceptance_Semester": 1,
       "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
       "Email": "120222231166@mutah.edu.jo"
     },
     {
       "Student_ID": "120212211015",
-      "Student_Name": "Zeinah Muneer Abd Almajeed Al Adaileh",
+      "Student_Name": "زينة منير عبدالمجيد العضايلة",
+      "Student_Gender": "F",
       "Degree_ID": 1,
       "Major_ID": 2211,
       "Plan_Year": 2021,
@@ -2000,5 +2002,1045 @@
       "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
       "Email": "120212211015@mutah.edu.jo"
     }
+  ],
+  "mark":[
+    {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "0304096",
+        "Mark": 4,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "1801096",
+        "Mark": 4,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "1802096",
+        "Mark": 5,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "0304099",
+        "Mark": 4,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "1801099",
+        "Mark": 4,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "1802099",
+        "Mark": 5,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "1802103",
+        "Mark": 4,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "0101173",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "2211121",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "2221111",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "2222111",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "2231301",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "2211122",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "0809103",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "0500106",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "0301101",
+        "Mark": 90,
+        "Grade_State": 2
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "0405131",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "2211123",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "2211124",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+    {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 3,
+        "Course_ID": "1600106",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+    {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 3,
+        "Course_ID": "2211261",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+    {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 3,
+        "Course_ID": "2211262",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+    {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 3,
+        "Course_ID": "0301131",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+    
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2211263",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2231261",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "0405231",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2211211",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2109103",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "1801102",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2211351",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2211212",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2211214",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2221362",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2221441",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2231221",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 3,
+        "Course_ID": "2231222",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 3,
+        "Course_ID": "2231331",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 3,
+        "Course_ID": "0403120",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2231341",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2231443",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2231442",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2231361",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2221371",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2212351",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120222231166",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2211353",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+     {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "0304096",
+        "Mark": 4,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "1801096",
+        "Mark": 4,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "1802096",
+        "Mark": 5,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "0304099",
+        "Mark": 4,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "1801099",
+        "Mark": 4,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "1802099",
+        "Mark": 5,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "1802103",
+        "Mark": 4,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "0101173",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "2211121",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "2221111",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "2222111",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "2231301",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 1,
+        "Course_ID": "2211122",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 2,
+        "Course_ID": "0809103",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 2,
+        "Course_ID": "0500106",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 2,
+        "Course_ID": "0301101",
+        "Mark": 90,
+        "Grade_State": 2
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 2,
+        "Course_ID": "0405131",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 2,
+        "Course_ID": "2211123",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2021/2022",
+        "Semester_Type": 2,
+        "Course_ID": "2211124",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "2211211",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "2211261",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+            "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "2211262",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+            "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "0301131",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+            "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "0405231",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "1600106",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "2211263",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "0301323",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "0301242",
+        "Mark": 48,
+        "Grade_State": 2
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "2211212",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "2211214",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "2221223",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 3,
+        "Course_ID": "0301242",
+        "Mark": 45,
+        "Grade_State": 2
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 3,
+        "Course_ID": "1801102",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 3,
+        "Course_ID": "2100100",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2211431",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+         "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2211351",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "0302101",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+            "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "0302111",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+            "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2211361",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+            "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2211311",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+            "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "0301242",
+        "Mark": 49,
+        "Grade_State": 2
+      },
+      {
+        "Student_ID": "120212211015",
+            "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2222261",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2222362",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2221321",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2211362",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+    
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2100102",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+    
+      {
+        "Student_ID": "120212211015",
+            "Academic_Year": "2023/2024",
+        "Semester_Type": 3,
+        "Course_ID": "2231261",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2023/2024",
+        "Semester_Type": 3,
+        "Course_ID": "0405101",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+    
+      
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2212351",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2211353",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2212271",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2211491",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2211391",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212211015",
+        "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2221221",
+        "Mark": 90,
+        "Grade_State": 1
+      }
+    ],
+  "calendar":[
+    {
+      "Academic_Year": "2024/2025",
+      "Semester_Type": 2,
+      "Reg_Start": "2025/02/01",
+      "Reg_End": "2025/02/10",
+      "Withdrawal_Start": "2025/02/01",
+      "Withdrawal_End": "2025/02/05",
+      "Postpone_Start": "2025/02/01",
+      "Postpone_End": "2025/02/29"
+    }
+  ],
+  "currentSemester":[
+    {
+      "Student_ID": "120222231166",
+      "Course_ID": "2221223",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": null,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120222231166",
+      "Course_ID": "2211431",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": null,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120222231166",
+      "Course_ID": "2231391",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": null,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120222231166",
+      "Course_ID": "2231462",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": null,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120222231166",
+      "Course_ID": "2231491",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": null,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212211015",
+      "Course_ID": "2212251",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": null,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212211015",
+      "Course_ID": "2211492",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": null,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212211015",
+      "Course_ID": "2221462",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": null,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    }
+  ], 
+  "announcementType": [
+{
+  "Announcement_Type_ID":1,
+  "Announcement_Type": "Finance"
+},{
+  "Announcement_Type_ID":2,
+  "Announcement_Type": "Registration"
+}
+
+  ],
+  "announcement":[
+{
+  "Announcement_ID":1,
+"Announcement_Type_ID":1,
+"Title":"إعلان مالية",
+"Body":"  تعلــن وحــدة الشؤون الماليـــة في جامعة مؤتــة عن البدء بقبض رسوم الفصل الثاني  2024/2025"
+},
+
+{
+  "Announcement_ID":2,
+"Announcement_Type_ID":2,
+"Title":"إعلان قبول و تسجيل",
+"Body":" يسر وحدة القبول والتسجيل أن تعلن للطلبة الأعزاء عن بدء فترة تقديم طلبات تغيير التخصص"
+}
+  ],
+  "schedule":[
+    {
+    "College_ID":22,
+    "Course_ID":2212251,
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"احد-ثلاثاء- خميس",
+    "From": "08:00:00",
+    "To": "09:00:00",
+    "Hall":"101"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":2211492,
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"-",
+    "From": "00:00:00",
+    "To": "00:00:00",
+    "Hall":"-"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":2231491,
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"-",
+    "From": "00:00:00",
+    "To": "00:00:00",
+    "Hall":"-"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":2221223,
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"أثنين- أربعاء",
+    "From": "08:00:00",
+    "To": "09:30:00",
+    "Hall":"102"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":2221321,
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"أثنين- أربعاء",
+    "From": "09:30:00",
+    "To": "11:00:00",
+    "Hall":"201"
+  }, 
+  {
+    "College_ID":22,
+    "Course_ID":2211431,
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"أثنين- أربعاء",
+    "From": "11:00:00",
+    "To": "12:30:00",
+    "Hall":"101"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":2231391,
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"أثنين- أربعاء",
+    "From": "12:30:00",
+    "To": "02:00:00",
+    "Hall":"Lab-08"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":2231462,
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"أثنين- أربعاء",
+    "From": "02:00:00",
+    "To": "03:30:00",
+    "Hall":"101"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":2231443,
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"احد-ثلاثاء- خميس",
+    "From": "09:00:00",
+    "To": "10:00:00",
+    "Hall":"102"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":2231331,
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"احد-ثلاثاء- خميس",
+    "From": "10:00:00",
+    "To": "11:00:00",
+    "Hall":"104"
+  }
+
+
   ]
 }
