@@ -438,7 +438,10 @@ class ModelInitializer {
           type: DataTypes.INTEGER,
           primaryKey: true,
         },
-        Course_ID: DataTypes.TEXT,
+        Course_ID:  {
+          type: DataTypes.TEXT,
+          primaryKey: true,
+        },
         Mark: DataTypes.INTEGER,
         Grade_State: DataTypes.INTEGER,
       },

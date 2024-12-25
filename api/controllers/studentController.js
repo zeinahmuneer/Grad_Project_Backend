@@ -1,6 +1,6 @@
 // Students Controller
 const {
-  generalCRUDController,
+  generalCRUDController, handleServerError
 } = require("../controllers/generalCRUDController");
 const { Students, Majors, AvgMark, SemesterType } = require("../models/index");
 const studentService = require("../services/student.service");
@@ -146,8 +146,7 @@ getById: async (req, res) => {
         });
       }
       const isStudentGraduate = await studentService.isGraduate(
-        student.Student_ID,
-        student.Plan_Year
+        student
       );
       res.status(200).json({
         message: "Student found",
@@ -159,6 +158,36 @@ getById: async (req, res) => {
       handleServerError(res, error);
     }
   },
+
+
+// Is Student PreGraduate or not
+isPreGraduate: async (req, res) => {
+  try {
+    const student = await Students.findOne({
+      where: {
+        Student_ID: req.params.studentId,
+      },
+    });
+
+    if (!student) {
+      return res.status(404).json({
+        message: "Student not found",
+      });
+    }
+    const isStudentGraduate = await studentService.isPreGraduate(
+      student
+    );
+    res.status(200).json({
+      message: "Student found",
+      data: {
+        isStudentGraduate,
+      },
+    });
+  } catch (error) {
+    handleServerError(res, error);
+  }
+},
+
 };
 
 module.exports = StudentsController;

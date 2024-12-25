@@ -19,6 +19,8 @@ const handleServerError = (res, error) => {
 
 // Generic CRUD Controller Generator
 const generalCRUDController = (Model, modelName) => ({
+
+  
   // Create a new record
   create: async (req, res) => {
     try {
@@ -134,4 +136,5 @@ module.exports = {
   ),
   CalendarController: generalCRUDController(Calendar, "Calendar"),
   generalCRUDController,
+  handleServerError
 };
