@@ -2,15 +2,15 @@ const express = require("express");
 const helmet = require("helmet");
 const http = require("http");
 const cors = require("cors");
-/**
- * server configuration
- */
+
+//server configuration
+
 const config = require("../config/");
 const dbService = require("./services/db.service");
 
-/**
- * express application
- */
+
+//  express application
+ 
 const app = express();
 const server = http.Server(app);
 const DB = dbService().start();
@@ -77,4 +77,5 @@ server.listen(config.port, () => {
     console.error("Database connection failed:", err);
   });
 });
+
 // Test Pull Request

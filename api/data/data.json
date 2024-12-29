@@ -2001,6 +2001,18 @@
       "Acceptance_Semester": 1,
       "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
       "Email": "120212211015@mutah.edu.jo"
+    },
+    {
+      "Student_ID": "120242211555",
+      "Student_Name": "حمزه يوسف عبدالكريم",
+      "Student_Gender": "M",
+      "Degree_ID": 1,
+      "Major_ID": 2211,
+      "Plan_Year": 2021,
+      "Acceptance_Year": "2024/2025",
+      "Acceptance_Semester": 2,
+      "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
+      "Email": "120242211555@mutah.edu.jo"
     }
   ],
   "mark":[
@@ -2806,11 +2818,11 @@
     {
       "Academic_Year": "2024/2025",
       "Semester_Type": 2,
-      "Reg_Start": "2025/02/01",
+      "Reg_Start": "2024/12/01",
       "Reg_End": "2025/02/10",
-      "Withdrawal_Start": "2025/02/01",
+      "Withdrawal_Start": "2024/12/01",
       "Withdrawal_End": "2025/02/05",
-      "Postpone_Start": "2025/02/01",
+      "Postpone_Start": "2024/12/01",
       "Postpone_End": "2025/02/29"
     }
   ],
@@ -2820,7 +2832,7 @@
       "Course_ID": "2221223",
       "Section": 1,
       "Semester_Type": 2,
-      "Subject_State": null,
+      "Subject_State": 1,
       "First_Exam": null,
       "Second_Exam": null,
       "Final_Exam": null,
@@ -2831,7 +2843,7 @@
       "Course_ID": "2211431",
       "Section": 1,
       "Semester_Type": 2,
-      "Subject_State": null,
+      "Subject_State": 1,
       "First_Exam": null,
       "Second_Exam": null,
       "Final_Exam": null,
@@ -2842,7 +2854,7 @@
       "Course_ID": "2231391",
       "Section": 1,
       "Semester_Type": 2,
-      "Subject_State": null,
+      "Subject_State": 1,
       "First_Exam": null,
       "Second_Exam": null,
       "Final_Exam": null,
@@ -2853,7 +2865,7 @@
       "Course_ID": "2231462",
       "Section": 1,
       "Semester_Type": 2,
-      "Subject_State": null,
+      "Subject_State": 1,
       "First_Exam": null,
       "Second_Exam": null,
       "Final_Exam": null,
@@ -2864,7 +2876,7 @@
       "Course_ID": "2231491",
       "Section": 1,
       "Semester_Type": 2,
-      "Subject_State": null,
+      "Subject_State": 1,
       "First_Exam": null,
       "Second_Exam": null,
       "Final_Exam": null,
@@ -2875,7 +2887,7 @@
       "Course_ID": "2212251",
       "Section": 1,
       "Semester_Type": 2,
-      "Subject_State": null,
+      "Subject_State": 1,
       "First_Exam": null,
       "Second_Exam": null,
       "Final_Exam": null,
@@ -2886,7 +2898,7 @@
       "Course_ID": "2211492",
       "Section": 1,
       "Semester_Type": 2,
-      "Subject_State": null,
+      "Subject_State": 1,
       "First_Exam": null,
       "Second_Exam": null,
       "Final_Exam": null,
@@ -2897,12 +2909,80 @@
       "Course_ID": "2221462",
       "Section": 1,
       "Semester_Type": 2,
-      "Subject_State": null,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120242211555",
+      "Course_ID": "0101173",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+{
+  "Student_ID": "120242211555",
+      "Course_ID": "2211121",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+{
+  "Student_ID": "120242211555",
+      "Course_ID": "2221111",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+{
+  "Student_ID": "120242211555",
+      "Course_ID": "2222111",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+{
+  "Student_ID": "120242211555",
+      "Course_ID": "2231301",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+{
+      "Student_ID": "120242211555",
+      "Course_ID": "2211122",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
       "First_Exam": null,
       "Second_Exam": null,
       "Final_Exam": null,
       "Total": null
     }
+
+
   ], 
   "announcementType": [
 {
@@ -2932,7 +3012,7 @@
   "schedule":[
     {
     "College_ID":22,
-    "Course_ID":2212251,
+    "Course_ID":"2212251",
     "Course_Section":1,
     "Section_Limit":30,
     "No_of_Reg_Stud":29,
@@ -2943,7 +3023,7 @@
   },
   {
     "College_ID":22,
-    "Course_ID":2211492,
+    "Course_ID":"2211492",
     "Course_Section":1,
     "Section_Limit":30,
     "No_of_Reg_Stud":29,
@@ -2954,7 +3034,7 @@
   },
   {
     "College_ID":22,
-    "Course_ID":2231491,
+    "Course_ID":"2231491",
     "Course_Section":1,
     "Section_Limit":30,
     "No_of_Reg_Stud":29,
@@ -2965,7 +3045,7 @@
   },
   {
     "College_ID":22,
-    "Course_ID":2221223,
+    "Course_ID":"2221223",
     "Course_Section":1,
     "Section_Limit":30,
     "No_of_Reg_Stud":29,
@@ -2976,7 +3056,7 @@
   },
   {
     "College_ID":22,
-    "Course_ID":2221321,
+    "Course_ID":"2221321",
     "Course_Section":1,
     "Section_Limit":30,
     "No_of_Reg_Stud":29,
@@ -2987,7 +3067,7 @@
   }, 
   {
     "College_ID":22,
-    "Course_ID":2211431,
+    "Course_ID":"2211431",
     "Course_Section":1,
     "Section_Limit":30,
     "No_of_Reg_Stud":29,
@@ -2998,29 +3078,29 @@
   },
   {
     "College_ID":22,
-    "Course_ID":2231391,
+    "Course_ID":"2231391",
     "Course_Section":1,
     "Section_Limit":30,
     "No_of_Reg_Stud":29,
     "Days":"أثنين- أربعاء",
     "From": "12:30:00",
-    "To": "02:00:00",
+    "To": "14:00:00",
     "Hall":"Lab-08"
   },
   {
     "College_ID":22,
-    "Course_ID":2231462,
+    "Course_ID":"2231462",
     "Course_Section":1,
     "Section_Limit":30,
     "No_of_Reg_Stud":29,
     "Days":"أثنين- أربعاء",
-    "From": "02:00:00",
-    "To": "03:30:00",
+    "From": "14:00:00",
+    "To": "15:30:00",
     "Hall":"101"
   },
   {
     "College_ID":22,
-    "Course_ID":2231443,
+    "Course_ID":"2231443",
     "Course_Section":1,
     "Section_Limit":30,
     "No_of_Reg_Stud":29,
@@ -3031,7 +3111,7 @@
   },
   {
     "College_ID":22,
-    "Course_ID":2231331,
+    "Course_ID":"2231331",
     "Course_Section":1,
     "Section_Limit":30,
     "No_of_Reg_Stud":29,
@@ -3039,7 +3119,85 @@
     "From": "10:00:00",
     "To": "11:00:00",
     "Hall":"104"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":"0101173",
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"احد-ثلاثاء- خميس",
+    "From": "17:00:00",
+    "To": "18:00:00",
+    "Hall":"Online"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":"2211121",
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"احد-ثلاثاء- خميس",
+    "From": "08:00:00",
+    "To": "09:00:00",
+    "Hall":"102"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":"2221111",
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"احد-ثلاثاء- خميس",
+    "From": "09:00:00",
+    "To": "10:00:00",
+    "Hall":"201"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":"2222111",
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"احد-ثلاثاء- خميس",
+    "From": "10:00:00",
+    "To": "11:00:00",
+    "Hall":"204"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":"2231301",
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"احد-ثلاثاء- خميس",
+    "From": "11:00:00",
+    "To": "12:00:00",
+    "Hall":"102"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":"2211122",
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"احد-ثلاثاء- خميس",
+    "From": "14:00:00",
+    "To": "16:00:00",
+    "Hall":"Lab-04"
+  },
+  {
+    "College_ID":22,
+    "Course_ID":"0301242",
+    "Course_Section":1,
+    "Section_Limit":30,
+    "No_of_Reg_Stud":29,
+    "Days":"احد-ثلاثاء- خميس",
+    "From": "12:00:00",
+    "To": "13:00:00",
+    "Hall":"ج120"
   }
+
 
 
   ]

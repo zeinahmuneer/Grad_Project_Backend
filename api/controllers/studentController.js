@@ -145,13 +145,13 @@ getById: async (req, res) => {
           message: "Student not found",
         });
       }
-      const isStudentGraduate = await studentService.isGraduate(
+      const isExpectedToGraduate = await studentService.isGraduate(
         student
       );
       res.status(200).json({
         message: "Student found",
         data: {
-          isStudentGraduate,
+          isExpectedToGraduate,
         },
       });
     } catch (error) {
@@ -174,13 +174,65 @@ isPreGraduate: async (req, res) => {
         message: "Student not found",
       });
     }
-    const isStudentGraduate = await studentService.isPreGraduate(
+    const isStudentPreGraduate = await studentService.isPreGraduate(
       student
     );
     res.status(200).json({
       message: "Student found",
       data: {
-        isStudentGraduate,
+        isStudentPreGraduate,
+      },
+    });
+  } catch (error) {
+    handleServerError(res, error);
+  }
+},
+
+// Is the student eligible for postponing
+canPostponeSemester: async (req, res) => {
+  try {
+    const student = await Students.findOne({
+      where: {
+        Student_ID: req.params.studentId,
+      },
+    });
+
+    if (!student) {
+      return res.status(404).json({
+        message: "Student not found",
+      });
+    }
+    const isAllowedToPostpone = await studentService.canPostponeSemester(student);
+    res.status(200).json({
+      message: "Student found",
+      data: {
+        isAllowedToPostpone,
+      },
+    });
+  } catch (error) {
+    handleServerError(res, error);
+  }
+},
+
+// Is the student eligible for increasing academic load
+canIncreaseAcademicLoad: async (req, res) => {
+  try {
+    const student = await Students.findOne({
+      where: {
+        Student_ID: req.params.studentId,
+      },
+    });
+
+    if (!student) {
+      return res.status(404).json({
+        message: "Student not found",
+      });
+    }
+    const isAllowedToIncrease = await studentService.canIncreaseAcademicLoad(student);
+    res.status(200).json({
+      message: "Student found",
+      data: {
+        isAllowedToIncrease,
       },
     });
   } catch (error) {

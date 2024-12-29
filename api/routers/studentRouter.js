@@ -12,5 +12,6 @@ router.get("/performance/:studentId", StudentsController.getStudentPerformance);
 router.post("/login", StudentsController.login); // Login student
 router.get("/isExpectedToGraduate/:studentId", StudentsController.isGraduate); // Check if student is graduate
 router.get("/isPreGraduate/:studentId", StudentsController.isPreGraduate); // Check if student is pregraduate
-
+router.get("/isAllowedToPostpone/:studentId", StudentsController.canPostponeSemester); // Check if student can postpone
+router.get("/isAllowedToIncreaseAL/:studentId", StudentsController.canIncreaseAcademicLoad); // Check if student can increase academic load
 module.exports = router;

@@ -830,6 +830,15 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       as: "RelatedDegreeType",
     });
 
+    SemesterType.hasMany(Students, {
+      foreignKey: "Acceptance_Semester",
+      as: "AcceptanceSemester",
+    });
+    Students.belongsTo(SemesterType, {
+      foreignKey: "Semester_Type",
+      as: "SemesterDetails",
+    });
+
     // Mark Associations
     Students.hasMany(Mark, {
       foreignKey: "Student_ID",
@@ -866,6 +875,8 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       foreignKey: "Grade_State",
       as: "GradeStateDetails",
     });
+
+ 
 
     // Current Semester Associations
     Students.hasMany(CurrentSemester, {
