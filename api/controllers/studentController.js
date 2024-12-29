@@ -2,7 +2,7 @@
 const {
   generalCRUDController, handleServerError
 } = require("../controllers/generalCRUDController");
-const { Students, Majors, AvgMark, SemesterType } = require("../models/index");
+const { Students, Majors, AvgMark, SemesterType,PostponeRequest,Calendar } = require("../models/index");
 const studentService = require("../services/student.service");
 const bcrypt = require('bcrypt');
 
@@ -40,8 +40,6 @@ getById: async (req, res) => {
     handleServerError(res, error);
   }
 },
-
-
 
   // Get students by major
   getStudentsByMajor: async (req, res) => {
@@ -109,7 +107,6 @@ getById: async (req, res) => {
         });
       }
 
- 
       // If everything is correct, return success response
       res.status(200).json({
         message: "Student logged in successfully",
@@ -235,6 +232,38 @@ canIncreaseAcademicLoad: async (req, res) => {
         isAllowedToIncrease,
       },
     });
+  } catch (error) {
+    handleServerError(res, error);
+  }
+},
+
+//Create a new record in the postponeRequest table
+createPostponeRequest: async (req, res) => {
+ 
+  try {
+    const { studentId, noOfSemesters, reason } = req.body;
+    const result = await studentService.createPostponeRecord(studentId,noOfSemesters,reason);
+    res.status(201).json(result);
+
+    if(!result)
+      res.status(400).json(result);
+
+  } catch (error) {
+    handleServerError(res, error);
+  }
+},
+
+//Create a new record in the Overload table
+createOverloadRequest: async (req, res) => {
+ 
+  try {
+    const { studentId, noOfHours } = req.body;
+    const result = await studentService. createOverloadRecord(studentId,noOfHours);
+    res.status(201).json(result);
+
+    if(!result)
+      res.status(400).json(result);
+
   } catch (error) {
     handleServerError(res, error);
   }

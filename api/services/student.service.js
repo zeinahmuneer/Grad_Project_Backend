@@ -1,7 +1,7 @@
 const {
   handleServerError
 } = require("../controllers/generalCRUDController");
-const { Majors, PlanCourses, Courses, Students, Required_CH_of_Req, Mark, Calendar, CurrentSemester,PostponeRequest} = require("../models/index");
+const { Majors, PlanCourses, Courses, Students, Required_CH_of_Req, Mark, Calendar, CurrentSemester,PostponeRequest,OverloadRequest} = require("../models/index");
 const { Op } = require("sequelize"); // Import Sequelize operators
 
 const studentService = {
@@ -138,13 +138,14 @@ getStudentDegree: async function (student)
 countPostponedSemesters: async function (student)
 {
   try {
-    const postponeCount = await PostponeRequest.count({where: { Student_ID:student.Student_ID } });
+    const postponeCount = await PostponeRequest.findOne({where: { Student_ID:student.Student_ID }, attributes: ["No_of_Semesters"] });
     return postponeCount;
   }
   catch (error) {
     console.log(error);
         }
 },
+
 
 //Get available semesters to postpone
 getAvailableSemestersForPP: async function(student)
@@ -237,7 +238,8 @@ else
         return { eligible: false, reason: "Student is in their first semester" };
       } 
 
-  //check if the student has already postponed 4 times
+      console.log(postponeCount);
+     //check if the student has already postponed 4 times
     if(postponeCount+1>4)
       {
         console.log("The student has already postponed 4 times ");
@@ -248,6 +250,51 @@ else
  // The student can postpone
   return {eligible: true, availableSemesters};
   },
+
+  //Create a new record in the postponeRequest table
+  createPostponeRecord: async function (studentID, noOfSemesters, reason)
+  {
+    const student = await Students.findOne({ where: { Student_ID: studentID } });
+    const currentCalendar = await this.getCurrentAcademicYearAndSemester();
+    const requestDateTime= new Date();
+
+
+    const newRequest = await PostponeRequest.create({
+      Student_ID: student.Student_ID,
+      From_Academic_Year: currentCalendar.Academic_Year,
+      From_Semester_Type: currentCalendar.Semester_Type,
+      No_of_Semesters: noOfSemesters,
+      Reason: reason,
+      Timestamp: requestDateTime,
+    });
+
+
+return newRequest;
+
+
+  },
+
+    //Create a new record in the Overload table
+    createOverloadRecord: async function (studentID, noOfHours)
+    {
+      const student = await Students.findOne({ where: { Student_ID: studentID } });
+      const currentCalendar = await this.getCurrentAcademicYearAndSemester();
+      const requestDateTime= new Date();
+  
+  
+      const newRequest = await OverloadRequest.create({
+        Student_ID: student.Student_ID,
+        Academic_Year: currentCalendar.Academic_Year,
+        Semester_Type: currentCalendar.Semester_Type,
+        No_of_Hours: noOfHours,
+        Timestamp: requestDateTime,
+      });
+  
+  
+  return newRequest;
+  
+  
+    },
   
 
   //Check if the student can increase academic load
@@ -270,7 +317,7 @@ console.log(RemainingHours);
 
    //Check if it is the allotted time to make the request
     if (requestDateTime < regStart || requestDateTime > regEnd) {
-      return { eligible: false, reason: "Request made outside the allotted postponing time" };
+      return { eligible: false, reason: "Request made outside the allotted Registration time" };
     }
    console.log(studentCurrentCH);
    //Check if the student is has registered the max number of CH
