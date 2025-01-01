@@ -77,6 +77,22 @@ return StudentCurrentCH;
         }
 },
 
+//Get the total number of records for a student in the current semester
+getStudentCurrentSemesterCount: async function (student) {
+  try {
+    const StudentCount= await CurrentSemester.count(
+      {
+        where:{Student_ID:student.Student_ID, Subject_State:1}
+      }
+    )
+return StudentCount;
+    
+        }
+        catch (error) {
+    console.log(error);
+        }
+},
+
 
 //Get current semester
 getSemesterType: async function()
@@ -165,6 +181,29 @@ getAvailableSemestersForPP: async function(student)
 
 },
 
+//Check if its the student's first semester 
+checkFirstSemester: async function(student)
+{
+
+  try {
+    const currentCalendar = await this.getCurrentAcademicYearAndSemester();
+    const studentDetails = await this.getStudentAcceptanceDetails(student);
+  //check if its the student's first year 
+  if( studentDetails.Acceptance_Year == currentCalendar.Academic_Year && studentDetails.Acceptance_Semester == currentCalendar.Semester_Type )
+    {
+      console.log("Its the student's first semester ");
+      return { eligible: true, reason: "Student is in their first semester" };
+    } 
+
+    return false;
+  }
+  catch (error) {
+    console.log(error);
+        }
+
+
+},
+
 //Check is the student is expected to graduate
   isGraduate: async function (student) 
   {
@@ -220,7 +259,7 @@ else
   {
     const currentCalendar = await this.getCurrentAcademicYearAndSemester();
     const postponeCount = await this.countPostponedSemesters(student);
-    const studentDetails = await this.getStudentAcceptanceDetails(student);
+    const studentCurrentSemesterCount = await this.getStudentCurrentSemesterCount(student);
     const requestDateTime = new Date();
     const postponeStart = new Date(currentCalendar.Postpone_Start);
     const postponeEnd = new Date(currentCalendar.Postpone_End);
@@ -231,13 +270,11 @@ else
       return { eligible: false, reason: "Request made outside the allotted postponing time" };
     }
 
-    //check if its the student's first year 
-    if( studentDetails.Acceptance_Year == currentCalendar.Academic_Year && studentDetails.Acceptance_Semester == currentCalendar.Semester_Type )
-      {
-        console.log("Its the student's first semester ");
-        return { eligible: false, reason: "Student is in their first semester" };
-      } 
-
+    console.log(studentCurrentSemesterCount);
+  //Check if the student is enrolled in any courses
+  if(studentCurrentSemesterCount>0){
+    return {eligible:false, reason:"The student is enrolled in courses"};  
+  }
       console.log(postponeCount);
      //check if the student has already postponed 4 times
     if(postponeCount+1>4)

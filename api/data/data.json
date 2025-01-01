@@ -116,58 +116,59 @@
   "Required_CH_of_Req": [
     {
       "Major_ID": 2231,
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Requisite_ID": 0,
       "No_of_CH_of_req": 0
     },
     {
       "Major_ID": 2231,
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Requisite_ID": 1,
       "No_of_CH_of_req": 0
     },
     {
       "Major_ID": 2231,
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Requisite_ID": 2,
       "No_of_CH_of_req": 18
     },
     {
       "Major_ID": 2231,
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Requisite_ID": 3,
       "No_of_CH_of_req": 3
     },
     {
       "Major_ID": 2231,
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Requisite_ID": 4,
       "No_of_CH_of_req": 3
     },
     {
       "Major_ID": 2231,
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Requisite_ID": 5,
       "No_of_CH_of_req": 3
     },
-    {
-      "Major_ID": 2231,
-      "Plan_Year": 2022,
-      "Requisite_ID": 6,
-      "No_of_CH_of_req": 27
-    },
-    {
-      "Major_ID": 2231,
-      "Plan_Year": 2022,
-      "Requisite_ID": 7,
-      "No_of_CH_of_req": 69
-    },
-    {
-      "Major_ID": 2231,
-      "Plan_Year": 2022,
-      "Requisite_ID": 8,
-      "No_of_CH_of_req": 9
-    },
+      {
+        "Major_ID": 2231,
+        "Plan_Year": 2021,
+        "Requisite_ID": 6,
+        "No_of_CH_of_req": 27
+      },
+      {
+        "Major_ID": 2231,
+        "Plan_Year": 2021,
+        "Requisite_ID": 7,
+        "No_of_CH_of_req": 69
+      },
+      {
+        "Major_ID": 2231,
+        "Plan_Year": 2021,
+        "Requisite_ID": 8,
+        "No_of_CH_of_req": 9
+      },
+  
     {
       "Major_ID": 2211,
       "Plan_Year": 2021,
@@ -742,7 +743,7 @@
       "Major_ID": 2231,
       "Course_ID": "0304096",
       "Requisite_ID": 0,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
@@ -754,385 +755,385 @@
       "Major_ID": 2231,
       "Course_ID": "1801096",
       "Requisite_ID": 0,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1802096",
       "Requisite_ID": 0,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0304099",
       "Requisite_ID": 1,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1801099",
       "Requisite_ID": 1,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1802099",
       "Requisite_ID": 1,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0101173",
       "Requisite_ID": 2,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0809103",
       "Requisite_ID": 2,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1600106",
       "Requisite_ID": 2,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1801102",
       "Requisite_ID": 2,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1802103",
       "Requisite_ID": 2,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2100102",
       "Requisite_ID": 2,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0500103",
       "Requisite_ID": 3,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0500106",
       "Requisite_ID": 3,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0706100",
       "Requisite_ID": 3,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0709101",
       "Requisite_ID": 3,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1601104",
       "Requisite_ID": 4,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1602104",
       "Requisite_ID": 4,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2100100",
       "Requisite_ID": 4,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2109103",
       "Requisite_ID": 4,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0403120",
       "Requisite_ID": 5,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0405101",
       "Requisite_ID": 5,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2200100",
       "Requisite_ID": 5,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2200110",
       "Requisite_ID": 5,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0301101",
       "Requisite_ID": 6,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211121",
       "Requisite_ID": 6,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211123",
       "Requisite_ID": 6,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211211",
       "Requisite_ID": 6,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211261",
       "Requisite_ID": 6,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2212351",
       "Requisite_ID": 6,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221111",
       "Requisite_ID": 6,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2222111",
       "Requisite_ID": 6,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231301",
       "Requisite_ID": 6,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0301131",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0405131",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0405231",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211122",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211124",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211212",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211214",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211262",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211263",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211351",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211431",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211353",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221223",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221321",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221362",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221371",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221441",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231221",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231222",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231261",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231331",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231341",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231361",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231381",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231442",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231443",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231491",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231492",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221221",
       "Requisite_ID": 8,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231391",
       "Requisite_ID": 8,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231421",
       "Requisite_ID": 7,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231462",
       "Requisite_ID": 8,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
@@ -1504,7 +1505,7 @@
       "Major_ID": 2231,
       "Course_ID": "2221221",
       "Requisite_ID": 8,
-      "Plan_Year": 2022
+      "Plan_Year": 2021
     },
     {
       "Major_ID": 2211,
@@ -1523,229 +1524,229 @@
     {
       "Major_ID": 2231,
       "Course_ID": "1801102",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "1801096"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1802099",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "1802096"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1801102",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "1801102"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "1802103",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "1802099"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211123",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211121"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211211",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211261",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2212351",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211351"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0301131",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "0301101"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0405131",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2221111"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "0405231",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "0405131"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211122",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211121"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211124",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211212",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211211"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211214",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211212"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211262",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211263",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211431",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211212"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211351",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211263"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2211353",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2212351"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221223",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221321",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2221223"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221362",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231261"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221371",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2221362"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221441",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211263"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231221",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231261"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231222",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231221"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231261",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211261"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231331",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231221"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231341",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231222"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231361",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231221"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231442",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231443"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231443",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231331"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231491",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231381"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231492",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231491"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2221221",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2211123"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231421",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231331"
     },
     {
       "Major_ID": 2231,
       "Course_ID": "2231462",
-      "Plan_Year": 2022,
+      "Plan_Year": 2021,
       "Prerequisite_Course_ID": "2231331"
     },
     {
@@ -1977,406 +1978,428 @@
       "Prerequisite_Course_ID": "2211123"
     }
   ],
-  "students": [
-    {
-      "Student_ID": "120222231166",
-      "Student_Name": "زينة منير عبدالمجيد العضايلة",
-      "Student_Gender": "F",
-      "Degree_ID": 1,
-      "Major_ID": 2231,
-      "Plan_Year": 2022,
-      "Acceptance_Year": "2022/2023",
-      "Acceptance_Semester": 1,
-      "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
-      "Email": "120222231166@mutah.edu.jo"
-    },
-    {
-      "Student_ID": "120212211015",
-      "Student_Name": "زينة منير عبدالمجيد العضايلة",
-      "Student_Gender": "F",
-      "Degree_ID": 1,
-      "Major_ID": 2211,
-      "Plan_Year": 2021,
-      "Acceptance_Year": "2021/2022",
-      "Acceptance_Semester": 1,
-      "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
-      "Email": "120212211015@mutah.edu.jo"
-    },
-    {
-      "Student_ID": "120242211555",
-      "Student_Name": "حمزه يوسف عبدالكريم",
-      "Student_Gender": "M",
-      "Degree_ID": 1,
-      "Major_ID": 2211,
-      "Plan_Year": 2021,
-      "Acceptance_Year": "2024/2025",
-      "Acceptance_Semester": 2,
-      "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
-      "Email": "120242211555@mutah.edu.jo"
-    }
+ "students": [
+ {
+  "Student_ID": "120212231166",
+  "Student_Name": "أسيل عامر لطفي فراج",
+  "Student_Gender": "F",
+  "Degree_ID": 1,
+  "Major_ID": 2231,
+  "Plan_Year": 2021,
+  "Acceptance_Year": "2021/2022",
+  "Acceptance_Semester": 1,
+  "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
+  "Email": "120212231166@mutah.edu.jo"
+},
+{
+  "Student_ID": "120212211015",
+  "Student_Name": "زينة منير عبدالمجيد العضايلة",
+  "Student_Gender": "F",
+  "Degree_ID": 1,
+  "Major_ID": 2211,
+  "Plan_Year": 2021,
+  "Acceptance_Year": "2021/2022",
+  "Acceptance_Semester": 1,
+  "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
+  "Email": "120212211015@mutah.edu.jo"
+},
+{
+  "Student_ID": "120242211555",
+  "Student_Name": "حمزه يوسف عبدالكريم",
+  "Student_Gender": "M",
+  "Degree_ID": 1,
+  "Major_ID": 2211,
+  "Plan_Year": 2021,
+  "Acceptance_Year": "2024/2025",
+  "Acceptance_Semester": 2,
+  "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
+  "Email": "120242211555@mutah.edu.jo"
+},
+{
+  "Student_ID": "120242211222",
+  "Student_Name": "مرح آدم طارق",
+  "Student_Gender": "F",
+  "Degree_ID": 1,
+  "Major_ID": 2211,
+  "Plan_Year": 2021,
+  "Acceptance_Year": "2024/2025",
+  "Acceptance_Semester": 1,
+  "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
+  "Email": "120242211222@mutah.edu.jo"
+}
   ],
-  "mark":[
+ "mark": [
     {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+    "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "0304096",
         "Mark": 4,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "1801096",
         "Mark": 4,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "1802096",
         "Mark": 5,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "0304099",
         "Mark": 4,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "1801099",
         "Mark": 4,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "1802099",
         "Mark": 5,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "1802103",
         "Mark": 4,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "0101173",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "2211121",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "2221111",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "2222111",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "2231301",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 1,
         "Course_ID": "2211122",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 2,
         "Course_ID": "0809103",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 2,
         "Course_ID": "0500106",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 2,
         "Course_ID": "0301101",
         "Mark": 90,
         "Grade_State": 2
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 2,
         "Course_ID": "0405131",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 2,
         "Course_ID": "2211123",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2021/2022",
         "Semester_Type": 2,
         "Course_ID": "2211124",
         "Mark": 90,
         "Grade_State": 1
       },
-    {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
-        "Semester_Type": 3,
-        "Course_ID": "1600106",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-    {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
-        "Semester_Type": 3,
-        "Course_ID": "2211261",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-    {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
-        "Semester_Type": 3,
-        "Course_ID": "2211262",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-    {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2022/2023",
-        "Semester_Type": 3,
-        "Course_ID": "0301131",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-    
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
-        "Semester_Type": 1,
-        "Course_ID": "2211263",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
-        "Semester_Type": 1,
-        "Course_ID": "2231261",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
-        "Semester_Type": 1,
-        "Course_ID": "0405231",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2022/2023",
         "Semester_Type": 1,
         "Course_ID": "2211211",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
+        "Student_ID": "120212231166",
+        "Academic_Year": "2022/2023",
         "Semester_Type": 1,
+        "Course_ID": "2211261",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "2211262",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "0301131",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+      {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
         "Course_ID": "2109103",
         "Mark": 90,
         "Grade_State": 1
       },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
-        "Semester_Type": 1,
-        "Course_ID": "1801102",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
-        "Semester_Type": 2,
-        "Course_ID": "2211351",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
+{
+        "Student_ID": "120212231166",
+          "Academic_Year": "2022/2023",
         "Semester_Type": 2,
         "Course_ID": "2211212",
         "Mark": 90,
         "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2022/2023",
         "Semester_Type": 2,
         "Course_ID": "2211214",
         "Mark": 90,
         "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2022/2023",
         "Semester_Type": 2,
-        "Course_ID": "2221362",
+        "Course_ID": "2211263",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2022/2023",
+        "Semester_Type": 2,
+        "Course_ID": "2231261",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
-        "Semester_Type": 2,
-        "Course_ID": "2221441",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
-        "Semester_Type": 2,
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
         "Course_ID": "2231221",
         "Mark": 90,
         "Grade_State": 1
       },
+{
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2211351",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2211431",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2221441",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "2221362",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 1,
+        "Course_ID": "1801096",
+        "Mark": 90,
+        "Grade_State": 1
+      },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
-        "Semester_Type": 3,
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2212351",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+{
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2211353",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
         "Course_ID": "2231222",
         "Mark": 90,
         "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
-        "Semester_Type": 3,
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
+        "Course_ID": "2231361",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
         "Course_ID": "2231331",
         "Mark": 90,
         "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2023/2024",
-        "Semester_Type": 3,
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2023/2024",
+        "Semester_Type": 2,
         "Course_ID": "0403120",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2024/2025",
-        "Semester_Type": 1,
-        "Course_ID": "2231341",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2024/2025",
-        "Semester_Type": 1,
-        "Course_ID": "2231443",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2024/2025",
-        "Semester_Type": 1,
-        "Course_ID": "2231442",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2024/2025",
-        "Semester_Type": 1,
-        "Course_ID": "2231361",
-        "Mark": 90,
-        "Grade_State": 1
-      },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2024/2025",
+        "Student_ID": "120212231166",
+          "Academic_Year": "2024/2025",
         "Semester_Type": 1,
         "Course_ID": "2221371",
         "Mark": 90,
         "Grade_State": 1
       },
-      {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2024/2025",
+{
+        "Student_ID": "120212231166",
+          "Academic_Year": "2024/2025",
         "Semester_Type": 1,
-        "Course_ID": "2212351",
+        "Course_ID": "2231443",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2231442",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2231421",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2231491",
+        "Mark": 90,
+        "Grade_State": 1
+      }, {
+        "Student_ID": "120212231166",
+          "Academic_Year": "2024/2025",
+        "Semester_Type": 1,
+        "Course_ID": "2100102",
         "Mark": 90,
         "Grade_State": 1
       },
       {
-        "Student_ID": "120222231166",
-        "Academic_Year": "2024/2025",
+        "Student_ID": "120212231166",
+          "Academic_Year": "2022/2023",
         "Semester_Type": 1,
-        "Course_ID": "2211353",
+        "Course_ID": "0405231",
         "Mark": 90,
         "Grade_State": 1
       },
+      {
+        "Student_ID": "120212231166",
+        "Academic_Year": "2022/2023",
+        "Semester_Type": 1,
+        "Course_ID": "1600106",
+        "Mark": 90,
+        "Grade_State": 1
+      },
+
+
      {
         "Student_ID": "120212211015",
         "Academic_Year": "2021/2022",
@@ -2812,8 +2835,112 @@
         "Course_ID": "2221221",
         "Mark": 90,
         "Grade_State": 1
-      }
-    ],
+      },
+      {
+        "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "0304096",
+            "Mark": 4,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "1801096",
+            "Mark": 4,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "1802096",
+            "Mark": 5,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "0304099",
+            "Mark": 4,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "1801099",
+            "Mark": 4,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "1802099",
+            "Mark": 5,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "1802103",
+            "Mark": 4,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "0101173",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2211121",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2221111",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2222111",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2231301",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120242211222",
+            "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2211122",
+            "Mark": 90,
+            "Grade_State": 1
+          }
+  ],
   "calendar":[
     {
       "Academic_Year": "2024/2025",
@@ -2827,61 +2954,7 @@
     }
   ],
   "currentSemester":[
-    {
-      "Student_ID": "120222231166",
-      "Course_ID": "2221223",
-      "Section": 1,
-      "Semester_Type": 2,
-      "Subject_State": 1,
-      "First_Exam": null,
-      "Second_Exam": null,
-      "Final_Exam": null,
-      "Total": null
-    },
-    {
-      "Student_ID": "120222231166",
-      "Course_ID": "2211431",
-      "Section": 1,
-      "Semester_Type": 2,
-      "Subject_State": 1,
-      "First_Exam": null,
-      "Second_Exam": null,
-      "Final_Exam": null,
-      "Total": null
-    },
-    {
-      "Student_ID": "120222231166",
-      "Course_ID": "2231391",
-      "Section": 1,
-      "Semester_Type": 2,
-      "Subject_State": 1,
-      "First_Exam": null,
-      "Second_Exam": null,
-      "Final_Exam": null,
-      "Total": null
-    },
-    {
-      "Student_ID": "120222231166",
-      "Course_ID": "2231462",
-      "Section": 1,
-      "Semester_Type": 2,
-      "Subject_State": 1,
-      "First_Exam": null,
-      "Second_Exam": null,
-      "Final_Exam": null,
-      "Total": null
-    },
-    {
-      "Student_ID": "120222231166",
-      "Course_ID": "2231491",
-      "Section": 1,
-      "Semester_Type": 2,
-      "Subject_State": 1,
-      "First_Exam": null,
-      "Second_Exam": null,
-      "Final_Exam": null,
-      "Total": null
-    },
+   
     {
       "Student_ID": "120212211015",
       "Course_ID": "2212251",
@@ -2971,8 +3044,63 @@
       "Total": null
     },
 {
-      "Student_ID": "120242211555",
-      "Course_ID": "2211122",
+      "Student_ID": "120212231166",
+      "Course_ID": "2221223",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212231166",
+      "Course_ID": "2231341",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212231166",
+      "Course_ID": "2221221",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212231166",
+      "Course_ID": "2231391",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212231166",
+      "Course_ID": "2231462",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212231166",
+      "Course_ID": "2221321",
       "Section": 1,
       "Semester_Type": 2,
       "Subject_State": 1,
@@ -3009,196 +3137,183 @@
 "Body":" يسر وحدة القبول والتسجيل أن تعلن للطلبة الأعزاء عن بدء فترة تقديم طلبات تغيير التخصص"
 }
   ],
-  "schedule":[
-    {
-    "College_ID":22,
-    "Course_ID":"2212251",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"احد-ثلاثاء- خميس",
-    "From": "08:00:00",
-    "To": "09:00:00",
-    "Hall":"101"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2211492",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"-",
-    "From": "00:00:00",
-    "To": "00:00:00",
-    "Hall":"-"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2231491",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"-",
-    "From": "00:00:00",
-    "To": "00:00:00",
-    "Hall":"-"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2221223",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"أثنين- أربعاء",
-    "From": "08:00:00",
-    "To": "09:30:00",
-    "Hall":"102"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2221321",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"أثنين- أربعاء",
-    "From": "09:30:00",
-    "To": "11:00:00",
-    "Hall":"201"
-  }, 
-  {
-    "College_ID":22,
-    "Course_ID":"2211431",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"أثنين- أربعاء",
-    "From": "11:00:00",
-    "To": "12:30:00",
-    "Hall":"101"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2231391",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"أثنين- أربعاء",
-    "From": "12:30:00",
-    "To": "14:00:00",
-    "Hall":"Lab-08"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2231462",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"أثنين- أربعاء",
-    "From": "14:00:00",
-    "To": "15:30:00",
-    "Hall":"101"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2231443",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"احد-ثلاثاء- خميس",
-    "From": "09:00:00",
-    "To": "10:00:00",
-    "Hall":"102"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2231331",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"احد-ثلاثاء- خميس",
-    "From": "10:00:00",
-    "To": "11:00:00",
-    "Hall":"104"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"0101173",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"احد-ثلاثاء- خميس",
-    "From": "17:00:00",
-    "To": "18:00:00",
-    "Hall":"Online"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2211121",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"احد-ثلاثاء- خميس",
-    "From": "08:00:00",
-    "To": "09:00:00",
-    "Hall":"102"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2221111",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"احد-ثلاثاء- خميس",
-    "From": "09:00:00",
-    "To": "10:00:00",
-    "Hall":"201"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2222111",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"احد-ثلاثاء- خميس",
-    "From": "10:00:00",
-    "To": "11:00:00",
-    "Hall":"204"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2231301",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"احد-ثلاثاء- خميس",
-    "From": "11:00:00",
-    "To": "12:00:00",
-    "Hall":"102"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"2211122",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"احد-ثلاثاء- خميس",
-    "From": "14:00:00",
-    "To": "16:00:00",
-    "Hall":"Lab-04"
-  },
-  {
-    "College_ID":22,
-    "Course_ID":"0301242",
-    "Course_Section":1,
-    "Section_Limit":30,
-    "No_of_Reg_Stud":29,
-    "Days":"احد-ثلاثاء- خميس",
-    "From": "12:00:00",
-    "To": "13:00:00",
-    "Hall":"ج120"
+  "Schedule": [
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2212251",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "احد-ثلاثاء- خميس",
+        "From" : "06:00:00Z",
+        "To" : "07:00:00Z",
+        "Hall" : "101"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2211492",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "-",
+        "From" : "22:00:00Z",
+        "To" : "22:00:00Z",
+        "Hall" : "-"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2221223",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "أثنين- أربعاء",
+        "From" : "06:00:00Z",
+        "To" : "07:30:00Z",
+        "Hall" : "102"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2221321",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "أثنين- أربعاء",
+        "From" : "07:30:00Z",
+        "To" : "09:00:00Z",
+        "Hall" : "201"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2221221",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "أثنين- أربعاء",
+        "From" : "09:00:00Z",
+        "To" : "10:30:00Z",
+        "Hall" : "101"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2231391",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "أثنين- أربعاء",
+        "From" : "10:30:00Z",
+        "To" : "12:00:00Z",
+        "Hall" : "Lab-08"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2231462",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "أثنين- أربعاء",
+        "From" : "12:00:00Z",
+        "To" : "13:30:00Z",
+        "Hall" : "101"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "0101173",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "احد-ثلاثاء- خميس",
+        "From" : "15:00:00Z",
+        "To" : "16:00:00Z",
+        "Hall" : "Online"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2211121",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "احد-ثلاثاء- خميس",
+        "From" : "06:00:00Z",
+        "To" : "07:00:00Z",
+        "Hall" : "102"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2221111",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "احد-ثلاثاء- خميس",
+        "From" : "07:00:00Z",
+        "To" : "08:00:00Z",
+        "Hall" : "201"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2222111",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "احد-ثلاثاء- خميس",
+        "From" : "08:00:00Z",
+        "To" : "09:00:00Z",
+        "Hall" : "204"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2231301",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "احد-ثلاثاء- خميس",
+        "From" : "09:00:00Z",
+        "To" : "10:00:00Z",
+        "Hall" : "102"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2211122",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "احد-ثلاثاء- خميس",
+        "From" : "12:00:00Z",
+        "To" : "14:00:00Z",
+        "Hall" : "Lab-04"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "0301242",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "احد-ثلاثاء- خميس",
+        "From" : "10:00:00Z",
+        "To" : "11:00:00Z",
+        "Hall" : "ج120"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2231341",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "احد-ثلاثاء- خميس",
+        "From" : "07:00:00Z",
+        "To" : "08:00:00Z",
+        "Hall" : "102"
+      },
+      {
+        "College_ID" : 22,
+        "Course_ID" : "2231492",
+        "Course_Section" : 1,
+        "Section_Limit" : 30,
+        "No_of_Reg_Stud" : 29,
+        "Days" : "-",
+        "From" : "22:00:00Z",
+        "To" : "22:00:00Z",
+        "Hall" : "-"
+      }
+    ]
   }
-
-
-
-  ]
-}
+  

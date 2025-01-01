@@ -156,6 +156,32 @@ getById: async (req, res) => {
     }
   },
 
+   // Is is the student's first semester
+   isFirstSemester: async (req, res) => {
+    try {
+      const student = await Students.findOne({
+        where: {
+          Student_ID: req.params.studentId,
+        },
+      });
+
+      if (!student) {
+        return res.status(404).json({
+          message: "Student not found",
+        });
+      }
+      const isFirstSemester = await studentService.checkFirstSemester(student);
+      res.status(200).json({
+        message: "Student found",
+        data: {
+          isFirstSemester,
+        },
+      });
+    } catch (error) {
+      handleServerError(res, error);
+    }
+  },
+
 
 // Is Student PreGraduate or not
 isPreGraduate: async (req, res) => {

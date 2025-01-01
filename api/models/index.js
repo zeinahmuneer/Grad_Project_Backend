@@ -811,6 +811,24 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       as: "StudentDegreeType",
     });
 
+      //Schedule Associations
+  Courses.hasMany(Schedule, {
+    foreignKey: "Course_ID",
+    as: "ScheduleCourses",
+  });
+  Schedule.belongsTo(Courses, {
+    foreignKey: "Course_ID",
+    as: "ScheduleCourseDetails",
+  });
+  College.hasMany(Schedule, {
+    foreignKey: "College_ID",
+    as: "ScheduleCollege",
+  });
+  Schedule.belongsTo(College, {
+    foreignKey: "College_ID",
+    as: "ScheduleCollegeDetails",
+  });
+
     // Semester Type Associations
     SemesterType.hasMany(DegreeSemesterHours, {
       foreignKey: "Semester_ID",
@@ -1093,7 +1111,6 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       as: "SubstituteCourseDetails",
     });
   }
-
 
 
   // Synchronization method
