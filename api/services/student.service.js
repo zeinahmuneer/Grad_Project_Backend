@@ -348,8 +348,10 @@ return newRequest;
 
 
 
-const RemainingHours= RequiredCH-StudentTotalCH;
-console.log(RemainingHours);
+const RemainingHours= RequiredCH-StudentTotalCH-studentCurrentCH;
+console.log("Required ",RequiredCH);
+console.log("Student ",StudentTotalCH);
+console.log("Remaining ",RemainingHours);
 
 
    //Check if it is the allotted time to make the request
@@ -363,14 +365,15 @@ console.log(RemainingHours);
     if(studentCurrentCH==10)
      return {
      eligible: true, 
-     AllowedHours: RemainingHours-10 
+     AllowedHours: RemainingHours
     };
     }
     else 
     {
       if(studentCurrentCH==18)
        return {    eligible: true, 
-        AllowedHours: RemainingHours-18  };
+        AllowedHours: RemainingHours
+      };
     }
 
     return {eligible:false , Reason:"The student hasn't fulfilled the requirements"}
