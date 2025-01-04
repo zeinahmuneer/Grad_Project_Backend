@@ -2,7 +2,7 @@
 const {
   generalCRUDController, handleServerError
 } = require("../controllers/generalCRUDController");
-const { Students, Majors, AvgMark, SemesterType,PostponeRequest,Calendar } = require("../models/index");
+const { Students, Majors, AvgMark, SemesterType,PostponeRequest,Calendar, Courses, Prerequisite } = require("../models/index");
 const studentService = require("../services/student.service");
 const bcrypt = require('bcrypt');
 
@@ -294,6 +294,56 @@ createOverloadRequest: async (req, res) => {
     handleServerError(res, error);
   }
 },
+
+//Create a new record in the Synchronization table
+createSynchronizationRequest: async (req,res)=>{
+  try {
+    const { studentId, courseID } = req.body;
+    const result = await studentService. synchronizeOneCourse(studentId,courseID);
+    res.status(201).json(result);
+
+    if(!result)
+      res.status(400).json(result);
+
+  } catch (error) {
+    handleServerError(res, error);
+  }
+
+},
+
+//Get prerequisite course name
+getPrerequisiteCourseName: async (req,res)=>{
+try {
+  const courseID= req.params.courseID;
+  const course= await Courses.findOne(
+{where:{ Course_ID: courseID },
+attributes: ["Course_ID"]
+ })
+
+if (!course) {
+  return res.status(404).json({
+    message: "Course not found",
+  });}
+  
+  const prerequisiteCourseID= await  studentService.getPrerequisiteCourseID( course.Course_ID);
+  if (!prerequisiteCourseID) {
+    return res.status(404).json({
+      message: "No prerequisite found for this course",
+    });
+  }
+
+  const PrerequisiteCourseName= await studentService.getPrerequisiteCourseName(prerequisiteCourseID);
+  res.status(200).json({
+    message: "Course found",
+    data: {
+      PrerequisiteCourseName,
+    },
+  });
+} 
+ catch (error) {
+    handleServerError(res, error);
+  }
+},  
 
 };
 

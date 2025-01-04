@@ -1,7 +1,19 @@
 const {
   handleServerError
 } = require("../controllers/generalCRUDController");
-const { Majors, PlanCourses, Courses, Students, Required_CH_of_Req, Mark, Calendar, CurrentSemester,PostponeRequest,OverloadRequest} = require("../models/index");
+const { Majors,
+    PlanCourses,
+    Courses,
+    Students,
+    Required_CH_of_Req,
+    Mark,
+    Calendar,
+    CurrentSemester,
+    PostponeRequest,
+    OverloadRequest,
+    Prerequisite,
+    SynchronizationRequest
+  } = require("../models/index");
 const { Op } = require("sequelize"); // Import Sequelize operators
 
 const studentService = {
@@ -92,7 +104,6 @@ return StudentCount;
     console.log(error);
         }
 },
-
 
 //Get current semester
 getSemesterType: async function()
@@ -253,6 +264,57 @@ else
   }
   },
 
+ //Get the Prerequisite ID of a course
+getPrerequisiteCourseID: async function (courseID)
+{
+  try {
+    const prerequisite = await Prerequisite.findOne({
+      where: { Course_ID: courseID },
+      attributes: ["Prerequisite_Course_ID"]
+    });
+    console.log(prerequisite);
+    return prerequisite.Prerequisite_Course_ID;
+  }
+  catch (error) {
+    console.log(error);
+        }
+},
+
+ //Get the Prerequisite name of a course
+ getPrerequisiteCourseName: async function (prerequisiteCourseID)
+ {
+   try {
+     const course= await Courses.findOne({
+       where: { Course_ID: prerequisiteCourseID },
+       attributes: ["Course_Name"]
+     });
+     return course.Course_Name;
+   }
+   catch (error) {
+     console.log(error);
+         }
+ },
+
+ //Check if student is enrolled in prerequisite course
+ isStudentEnrolledInPrerequisite: async function (studentID, prerequisiteID)
+ {
+  try {
+    const enrolled = await CurrentSemester.findOne({
+      where: { 
+        Student_ID:studentID,
+        Course_ID: prerequisiteID
+      }
+    });
+    return enrolled!==null; // returns a boolean value
+  }
+  catch (error) {
+    console.log(error);
+        }
+
+ },
+ 
+
+// Services' processing functions 
 
   //Check if the student is eligible for postponing
   canPostponeSemester: async function(student)
@@ -295,7 +357,7 @@ else
     const currentCalendar = await this.getCurrentAcademicYearAndSemester();
     const requestDateTime= new Date();
 
-
+//Insert a record to PostponeRequest
     const newRequest = await PostponeRequest.create({
       Student_ID: student.Student_ID,
       From_Academic_Year: currentCalendar.Academic_Year,
@@ -311,29 +373,7 @@ return newRequest;
 
   },
 
-    //Create a new record in the Overload table
-    createOverloadRecord: async function (studentID, noOfHours)
-    {
-      const student = await Students.findOne({ where: { Student_ID: studentID } });
-      const currentCalendar = await this.getCurrentAcademicYearAndSemester();
-      const requestDateTime= new Date();
-  
-  
-      const newRequest = await OverloadRequest.create({
-        Student_ID: student.Student_ID,
-        Academic_Year: currentCalendar.Academic_Year,
-        Semester_Type: currentCalendar.Semester_Type,
-        No_of_Hours: noOfHours,
-        Timestamp: requestDateTime,
-      });
-  
-  
-  return newRequest;
-  
-  
-    },
-  
-
+ 
   //Check if the student can increase academic load
   canIncreaseAcademicLoad: async function(student)
   {
@@ -377,6 +417,54 @@ console.log("Remaining ",RemainingHours);
     }
 
     return {eligible:false , Reason:"The student hasn't fulfilled the requirements"}
+  },
+  
+   //Create a new record in the Overload table
+    createOverloadRecord: async function (studentID, noOfHours)
+    {
+      const student = await Students.findOne({ where: { Student_ID: studentID } });
+      const currentCalendar = await this.getCurrentAcademicYearAndSemester();
+      const requestDateTime= new Date();
+  
+  //Insert a record to OverloadRequest
+      const newRequest = await OverloadRequest.create({
+        Student_ID: student.Student_ID,
+        Academic_Year: currentCalendar.Academic_Year,
+        Semester_Type: currentCalendar.Semester_Type,
+        No_of_Hours: noOfHours,
+        Timestamp: requestDateTime,
+      });
+  
+  
+  return newRequest;
+  
+  
+    },
+
+  //Create a new record in SynchronizationRequest for one pair of courses
+  synchronizeOneCourse: async function (studentID, courseID)
+  {
+    const student = await Students.findOne({ where: { Student_ID: studentID } });
+    const currentCalendar= await this.getCurrentAcademicYearAndSemester();
+    const prerequisiteID= await this.getPrerequisiteCourseID(courseID);
+    const isEnrolled= await this.isStudentEnrolledInPrerequisite(prerequisiteID);
+    const requestDateTime= new Date();
+    
+    if(isEnrolled==false)
+      return { eligible:false, reason: "The student is not enrolled in the prerequisite course"};
+
+    //Insert a record into SynchronizationRequest
+    const newRequest= await SynchronizationRequest.create({
+      Student_ID: student.Student_ID,
+      Academic_Year: currentCalendar.Academic_Year,
+      Semester_Type: currentCalendar.Semester_Type,
+      CoreCourse_ID:courseID,
+      Prereq_Course_ID:prerequisiteID,
+      Timestamp:requestDateTime
+        });
+return {newRequest, message:"A new record is made"};
+
+
   },
 
 

@@ -19,5 +19,7 @@ router.get("/isPreGraduate/:studentId", StudentsController.isPreGraduate); // Ch
 router.get("/isAllowedToPostpone/:studentId", StudentsController.canPostponeSemester); // Check if student can postpone
 router.post("/createPostponeRecord",StudentsController.createPostponeRequest)//Adds new record to PostponeRequest
 router.get("/isAllowedToIncreaseAL/:studentId", StudentsController.canIncreaseAcademicLoad); // Check if student can increase academic load
-router.post("/createOverloadRecord",StudentsController.createOverloadRequest)//Adds new record to PostponeRequest
+router.post("/createOverloadRecord",StudentsController.createOverloadRequest)//Adds new record to OverloadRequest
+router.get("/prerequisiteName/:courseID", StudentsController.getPrerequisiteCourseName); // Gets prerequisite course name 
+router.post("/createSynchronizationRecord",StudentsController.createSynchronizationRequest)//Checks and Adds new record to SynchronizationRequest
 module.exports = router;

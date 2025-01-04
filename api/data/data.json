@@ -2026,8 +2026,22 @@
   "Acceptance_Semester": 1,
   "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
   "Email": "120242211222@mutah.edu.jo"
+},
+{
+  "Student_ID": "120212231111",
+  "Student_Name": "تلا أحمد خالد",
+  "Student_Gender": "F",
+  "Degree_ID": 1,
+  "Major_ID": 2231,
+  "Plan_Year": 2021,
+  "Acceptance_Year": "2021/2022",
+  "Acceptance_Semester": 1,
+  "Password": "$2a$10$O7fepTIiuYI6WfjWyykYVubfJX9iNgOEKAJ5idkQ46W6R13M9.VTm",
+  "Email": "120212231111@mutah.edu.jo"
+
 }
   ],
+
  "mark": [
     {
     "Student_ID": "120212231166",
@@ -2398,6 +2412,377 @@
         "Mark": 90,
         "Grade_State": 1
       },
+      
+      {
+        "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "0304096",
+            "Mark": 4,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "1801096",
+            "Mark": 4,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "1802096",
+            "Mark": 5,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "0304099",
+            "Mark": 4,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "1801099",
+            "Mark": 4,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "1802099",
+            "Mark": 5,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "1802103",
+            "Mark": 4,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "0101173",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "2211121",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "2221111",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "2222111",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "2231301",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 1,
+            "Course_ID": "2211122",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 2,
+            "Course_ID": "0809103",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 2,
+            "Course_ID": "0500106",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 2,
+            "Course_ID": "0301101",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 2,
+            "Course_ID": "0405131",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 2,
+            "Course_ID": "2211123",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2021/2022",
+            "Semester_Type": 2,
+            "Course_ID": "2211124",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2022/2023",
+            "Semester_Type": 1,
+            "Course_ID": "2211211",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2022/2023",
+            "Semester_Type": 1,
+            "Course_ID": "2211261",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2022/2023",
+            "Semester_Type": 1,
+            "Course_ID": "2211262",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2022/2023",
+            "Semester_Type": 1,
+            "Course_ID": "0301131",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2022/2023",
+            "Semester_Type": 2,
+            "Course_ID": "2109103",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+    {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2022/2023",
+            "Semester_Type": 2,
+            "Course_ID": "2211212",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2022/2023",
+            "Semester_Type": 2,
+            "Course_ID": "2211214",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2022/2023",
+            "Semester_Type": 2,
+            "Course_ID": "2211263",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2022/2023",
+            "Semester_Type": 2,
+            "Course_ID": "2231261",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 1,
+            "Course_ID": "2231221",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+    {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 1,
+            "Course_ID": "2211351",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 1,
+            "Course_ID": "2211431",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 1,
+            "Course_ID": "2221441",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 1,
+            "Course_ID": "2221362",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 1,
+            "Course_ID": "1801102",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 2,
+            "Course_ID": "2212351",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+    {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 2,
+            "Course_ID": "2211353",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 2,
+            "Course_ID": "2231222",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 2,
+            "Course_ID": "2231361",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 2,
+            "Course_ID": "2231331",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2023/2024",
+            "Semester_Type": 2,
+            "Course_ID": "0403120",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2221371",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+    {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2231443",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2231442",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2231421",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2231491",
+            "Mark": 90,
+            "Grade_State": 1
+          }, {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2024/2025",
+            "Semester_Type": 1,
+            "Course_ID": "2100102",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+              "Academic_Year": "2022/2023",
+            "Semester_Type": 1,
+            "Course_ID": "0405231",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+          {
+            "Student_ID": "120212231111",
+            "Academic_Year": "2022/2023",
+            "Semester_Type": 1,
+            "Course_ID": "1600106",
+            "Mark": 90,
+            "Grade_State": 1
+          },
+    
 
 
      {
@@ -3101,6 +3486,50 @@
     {
       "Student_ID": "120212231166",
       "Course_ID": "2221321",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212231111",
+      "Course_ID": "2231341",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212231111",
+      "Course_ID": "2221221",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212231111",
+      "Course_ID": "2231391",
+      "Section": 1,
+      "Semester_Type": 2,
+      "Subject_State": 1,
+      "First_Exam": null,
+      "Second_Exam": null,
+      "Final_Exam": null,
+      "Total": null
+    },
+    {
+      "Student_ID": "120212231111",
+      "Course_ID": "2231462",
       "Section": 1,
       "Semester_Type": 2,
       "Subject_State": 1,
