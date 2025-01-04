@@ -317,7 +317,7 @@ try {
   const courseID= req.params.courseID;
   const course= await Courses.findOne(
 {where:{ Course_ID: courseID },
-attributes: ["Course_ID"]
+attributes: ["Course_ID", "Course_Name"]
  })
 
 if (!course) {
@@ -337,6 +337,7 @@ if (!course) {
     message: "Course found",
     data: {
       PrerequisiteCourseName,
+      CoreCourse: course.Course_Name
     },
   });
 } 
