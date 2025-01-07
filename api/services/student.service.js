@@ -1,7 +1,8 @@
 const {
   handleServerError
 } = require("../controllers/generalCRUDController");
-const { Majors,
+const {
+  Majors,
     PlanCourses,
     Courses,
     Students,
@@ -12,7 +13,11 @@ const { Majors,
     PostponeRequest,
     OverloadRequest,
     Prerequisite,
-    SynchronizationRequest
+    SynchronizationRequest,
+    Substitute,
+    Schedule,
+    SubstituteRequest,
+    Flags
   } = require("../models/index");
 const { Op } = require("sequelize"); // Import Sequelize operators
 
@@ -24,12 +29,12 @@ getMajorCH: async function (student) {
   try {
     const RequiredCH= await Required_CH_of_Req.sum('No_of_CH_of_req',
       {
-       where:{Major_ID: student.Major_ID, Plan_Year:student.Plan_Year} 
+       where:{Major_ID: student.Major_ID, Plan_Year:student.Plan_Year}
       }
-    
+
     )
       return RequiredCH;
-    
+
         }
         catch (error) {
     console.log(error);
@@ -50,12 +55,12 @@ getStudentTotalCH: async function (student) {
     )
     let StudentTotalCH= 0;
     StudentMarks.forEach((mark)=>{
-    
+
       StudentTotalCH += mark?.CourseDetails?.Credited_Hours
-    
+
     })
 return StudentTotalCH;
-    
+
         }
         catch (error) {
     console.log(error);
@@ -77,12 +82,12 @@ getStudentCurrentCH: async function (student) {
     )
     let StudentCurrentCH= 0;
     StudentCH.forEach((course)=>{
-    
+
       StudentCurrentCH += course?.CourseDetails?.Credited_Hours
-    
+
     })
 return StudentCurrentCH;
-    
+
         }
         catch (error) {
     console.log(error);
@@ -98,7 +103,7 @@ getStudentCurrentSemesterCount: async function (student) {
       }
     )
 return StudentCount;
-    
+
         }
         catch (error) {
     console.log(error);
@@ -118,7 +123,7 @@ getSemesterType: async function()
 },
 
 // Get Current Academic Year And Semester
-getCurrentAcademicYearAndSemester: async function() 
+getCurrentAcademicYearAndSemester: async function()
 {
   try{
     const currentCalendar = await Calendar.findOne({attributes: ["Academic_Year", "Semester_Type", "Postpone_Start", "Postpone_End","Reg_Start","Reg_End"]});
@@ -130,7 +135,7 @@ getCurrentAcademicYearAndSemester: async function()
         }
 },
 
-//Get student's acceptance year and semester 
+//Get student's acceptance year and semester
 getStudentAcceptanceDetails: async function (student)
 {
   try {
@@ -166,7 +171,7 @@ countPostponedSemesters: async function (student)
 {
   try {
     const postponeCount = await PostponeRequest.findOne({where: { Student_ID:student.Student_ID }, attributes: ["No_of_Semesters"] });
-    return postponeCount;
+    return postponeCount ? postponeCount.No_of_Semesters : 0;;
   }
   catch (error) {
     console.log(error);
@@ -180,10 +185,17 @@ getAvailableSemestersForPP: async function(student)
   try {
     const postponeCount = await this.countPostponedSemesters(student);
     const maxPostponeSemesters=4;
+
+    if (postponeCount >= maxPostponeSemesters) {
+      return [];
+    }
+
     const availableSemesters= Array.from(
       {length: maxPostponeSemesters - postponeCount},
       (_,i)=> i+1
     );
+
+   console.log('Available semesters:', availableSemesters);
     return availableSemesters;
   }
   catch (error) {
@@ -192,19 +204,19 @@ getAvailableSemestersForPP: async function(student)
 
 },
 
-//Check if its the student's first semester 
+//Check if its the student's first semester
 checkFirstSemester: async function(student)
 {
 
   try {
     const currentCalendar = await this.getCurrentAcademicYearAndSemester();
     const studentDetails = await this.getStudentAcceptanceDetails(student);
-  //check if its the student's first year 
+  //check if its the student's first year
   if( studentDetails.Acceptance_Year == currentCalendar.Academic_Year && studentDetails.Acceptance_Semester == currentCalendar.Semester_Type )
     {
       console.log("Its the student's first semester ");
       return { eligible: true, reason: "Student is in their first semester" };
-    } 
+    }
 
     return false;
   }
@@ -216,7 +228,7 @@ checkFirstSemester: async function(student)
 },
 
 //Check is the student is expected to graduate
-  isGraduate: async function (student) 
+  isGraduate: async function (student)
   {
 
     const RequiredCH=await this.getMajorCH(student);
@@ -232,7 +244,7 @@ if(RemainingHours<=10)
   return true;
 else return false;
 }
-else 
+else
 {
   if(RemainingHours<=18)
     return true;
@@ -241,13 +253,13 @@ else
 },
 
 
- //Check if it's the pre graduation semester   
-  isPreGraduate: async function (student) 
+ //Check if it's the pre graduation semester
+  isPreGraduate: async function (student)
   {
       const RequiredCH=await this.getMajorCH(student);
       const StudentTotalCH=await this.getStudentTotalCH(student);
       const Semester_Type=await this.getSemesterType();
-  
+
   const RemainingHours= RequiredCH-StudentTotalCH;
   console.log(RemainingHours);
   if(Semester_Type==3 || Semester_Type==2)
@@ -256,7 +268,7 @@ else
     return true;
   else return false;
   }
-  else 
+  else
   {
     if(RemainingHours<=36)
       return true;
@@ -300,7 +312,7 @@ getPrerequisiteCourseID: async function (courseID)
  {
   try {
     const enrolled = await CurrentSemester.findOne({
-      where: { 
+      where: {
         Student_ID:studentID,
         Course_ID: prerequisiteID
       }
@@ -312,9 +324,115 @@ getPrerequisiteCourseID: async function (courseID)
         }
 
  },
- 
 
-// Services' processing functions 
+ //Count the number of times a student has failed a course
+ countFailedCourse: async function(studentID, courseID)
+ {
+  try {
+const countFailedCourse= await Mark.count({
+  where:{
+  Student_ID:studentID,
+  Course_ID: courseID,
+  Grade_State:2
+  } ,
+});
+return countFailedCourse;
+}
+catch (error) {
+  console.log(error);
+      }
+ },
+
+//Check if course is in the semester's schedule
+isCourseInSchedule: async function(courseID)
+{
+    try {
+  const isCourseInSchedule= await Schedule.findOne({
+    where:{
+    Course_ID: courseID,
+    }
+  });
+  return isCourseInSchedule !==null;//returns boolean value
+  }
+  catch (error) {
+    console.log(error);
+        }
+
+},
+
+//Get the schedule for a course
+getCourseSchedule: async function(courseID)
+{
+const checkCourse= await this.isCourseInSchedule(courseID);
+
+if(checkCourse==true)
+{
+  const schedule = await Schedule.findAll({
+    where: { Course_ID: courseID },
+    attributes: ['Days', 'From', 'To']
+  });
+  return schedule;
+}
+else return {Message:`No schedule for course: ${courseID} `}
+
+},
+
+//Get enrolled courses and their schedule
+getEnrolledCoursesWSchedule: async function(studentID)
+{
+  const currentSchedule = await CurrentSemester.findAll({
+    where: {
+      Student_ID: studentID
+    },
+    include: [{
+      model: Schedule,
+      required: true,
+      on: sequelize.where(
+        sequelize.col('Current_Semester.Course_ID'),
+        '=',
+        sequelize.col('Schedule.Course_ID')
+      ),
+      attributes: ['Days', 'From', 'To', 'Course_ID']
+    }]
+  });
+return currentSchedule;
+},
+
+
+//Check conflicts in the student's schedule
+checkCourseConflicts:async function(studentID, orgCourseID)
+{
+  try{
+  const orgCourseSchedule = await this.getCourseSchedule(orgCourseID);
+  const enrolledCoursesSchedule = await this.getEnrolledCoursesWSchedule(studentID);
+
+  //Check for conflicts
+  for(const enrollment of enrolledCoursesSchedule)
+  {
+
+    const enrolledCourse= enrollment.Schedule;
+
+  //Check days
+const hasCommonDays= enrolledCourse.Days.split(',').some(day => orgCourseSchedule[0].Days.includes(day));
+
+//Check time
+if(hasCommonDays)
+{
+  if(enrolledCourse.From < orgCourseSchedule[0].To &&  enrolledCourse.To > orgCourseSchedule[0].From)
+  return true;
+}
+  }
+
+  return false;
+}
+catch (error) {
+  console.log(error);
+      }
+
+},
+
+
+// Services' processing functions
 
   //Check if the student is eligible for postponing
   canPostponeSemester: async function(student)
@@ -335,11 +453,11 @@ getPrerequisiteCourseID: async function (courseID)
     console.log(studentCurrentSemesterCount);
   //Check if the student is enrolled in any courses
   if(studentCurrentSemesterCount>0){
-    return {eligible:false, reason:"The student is enrolled in courses"};  
+    return {eligible:false, reason:"The student is enrolled in courses"};
   }
       console.log(postponeCount);
      //check if the student has already postponed 4 times
-    if(postponeCount+1>4)
+    if(postponeCount>=4)
       {
         console.log("The student has already postponed 4 times ");
         return { eligible: false, reason: "Exceeded maximum number of postponements" };
@@ -373,7 +491,7 @@ return newRequest;
 
   },
 
- 
+
   //Check if the student can increase academic load
   canIncreaseAcademicLoad: async function(student)
   {
@@ -404,28 +522,28 @@ console.log("Remaining ",RemainingHours);
     {
     if(studentCurrentCH==10)
      return {
-     eligible: true, 
+     eligible: true,
      AllowedHours: RemainingHours
     };
     }
-    else 
+    else
     {
       if(studentCurrentCH==18)
-       return {    eligible: true, 
+       return {    eligible: true,
         AllowedHours: RemainingHours
       };
     }
 
     return {eligible:false , Reason:"The student hasn't fulfilled the requirements"}
   },
-  
+
    //Create a new record in the Overload table
     createOverloadRecord: async function (studentID, noOfHours)
     {
       const student = await Students.findOne({ where: { Student_ID: studentID } });
       const currentCalendar = await this.getCurrentAcademicYearAndSemester();
       const requestDateTime= new Date();
-  
+
   //Insert a record to OverloadRequest
       const newRequest = await OverloadRequest.create({
         Student_ID: student.Student_ID,
@@ -434,11 +552,11 @@ console.log("Remaining ",RemainingHours);
         No_of_Hours: noOfHours,
         Timestamp: requestDateTime,
       });
-  
-  
+
+
   return newRequest;
-  
-  
+
+
     },
 
   //Create a new record in SynchronizationRequest for one pair of courses
@@ -449,7 +567,7 @@ console.log("Remaining ",RemainingHours);
     const prerequisiteID= await this.getPrerequisiteCourseID(courseID);
     const isEnrolled= await this.isStudentEnrolledInPrerequisite(prerequisiteID);
     const requestDateTime= new Date();
-    
+
     if(isEnrolled==false)
       return { eligible:false, reason: "The student is not enrolled in the prerequisite course"};
 
@@ -467,6 +585,40 @@ return {newRequest, message:"A new record is made"};
 
   },
 
+  //Create a new record in the SubstituteRequest table
+  SubstituteCourse: async function(studentID, courseID)
+{
+const student = await Students.findOne({ where: { Student_ID: studentID } });
+const countFailedCourse= await this.countFailedCourse(courseID);
+const checkCourse=await this.isCourseInSchedule(courseID);
+const checkConflict= await this.checkCourseConflicts(studentID, courseID);
+const currentCalendar= await this.getCurrentAcademicYearAndSemester();
+const requestDateTime= new Date();
+
+
+console.log(countFailedCourse);
+console.log(checkCourse);
+console.log(checkConflict);
+
+//Check for eligibility
+if(countFailedCourse >=3 || checkCourse==false || checkConflict==true )
+{
+const newRequest= await SubstituteRequest.create({
+  Student_ID: student.Student_ID,
+  Academic_Year: currentCalendar.Academic_Year,
+  Semester_Type: currentCalendar.Semester_Type,
+  OrgCourse_ID: courseID ,
+  Flag:1,
+  Timestamp:requestDateTime
+});
+
+return {newRequest, message: "تم تقديم الطلب"};
+}
+
+return {eligible: false, message:"لم تستوفي الشروط"};
+
+
+},
 
 };
 module.exports = studentService;

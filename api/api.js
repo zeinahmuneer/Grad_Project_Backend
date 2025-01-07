@@ -10,7 +10,7 @@ const dbService = require("./services/db.service");
 
 
 //  express application
- 
+
 const app = express();
 const server = http.Server(app);
 const DB = dbService().start();

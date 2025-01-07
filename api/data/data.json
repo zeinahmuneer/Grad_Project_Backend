@@ -168,7 +168,7 @@
         "Requisite_ID": 8,
         "No_of_CH_of_req": 9
       },
-  
+
     {
       "Major_ID": 2211,
       "Plan_Year": 2021,
@@ -2412,7 +2412,7 @@
         "Mark": 90,
         "Grade_State": 1
       },
-      
+
       {
         "Student_ID": "120212231111",
             "Academic_Year": "2021/2022",
@@ -2782,7 +2782,7 @@
             "Mark": 90,
             "Grade_State": 1
           },
-    
+
 
 
      {
@@ -3145,7 +3145,7 @@
         "Mark": 90,
         "Grade_State": 1
       },
-    
+
       {
         "Student_ID": "120212211015",
         "Academic_Year": "2023/2024",
@@ -3154,7 +3154,7 @@
         "Mark": 90,
         "Grade_State": 1
       },
-    
+
       {
         "Student_ID": "120212211015",
             "Academic_Year": "2023/2024",
@@ -3171,8 +3171,8 @@
         "Mark": 90,
         "Grade_State": 1
       },
-    
-      
+
+
       {
         "Student_ID": "120212211015",
         "Academic_Year": "2024/2025",
@@ -3339,7 +3339,7 @@
     }
   ],
   "currentSemester":[
-   
+
     {
       "Student_ID": "120212211015",
       "Course_ID": "2212251",
@@ -3540,7 +3540,7 @@
     }
 
 
-  ], 
+  ],
   "announcementType": [
 {
   "Announcement_Type_ID":1,
@@ -3571,6 +3571,7 @@
         "College_ID" : 22,
         "Course_ID" : "2212251",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "احد-ثلاثاء- خميس",
@@ -3582,6 +3583,7 @@
         "College_ID" : 22,
         "Course_ID" : "2211492",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "-",
@@ -3593,6 +3595,7 @@
         "College_ID" : 22,
         "Course_ID" : "2221223",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "أثنين- أربعاء",
@@ -3604,6 +3607,7 @@
         "College_ID" : 22,
         "Course_ID" : "2221321",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "أثنين- أربعاء",
@@ -3615,6 +3619,7 @@
         "College_ID" : 22,
         "Course_ID" : "2221221",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "أثنين- أربعاء",
@@ -3626,6 +3631,7 @@
         "College_ID" : 22,
         "Course_ID" : "2231391",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "أثنين- أربعاء",
@@ -3637,6 +3643,7 @@
         "College_ID" : 22,
         "Course_ID" : "2231462",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "أثنين- أربعاء",
@@ -3648,6 +3655,7 @@
         "College_ID" : 22,
         "Course_ID" : "0101173",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "احد-ثلاثاء- خميس",
@@ -3659,6 +3667,7 @@
         "College_ID" : 22,
         "Course_ID" : "2211121",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "احد-ثلاثاء- خميس",
@@ -3670,6 +3679,7 @@
         "College_ID" : 22,
         "Course_ID" : "2221111",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "احد-ثلاثاء- خميس",
@@ -3681,6 +3691,7 @@
         "College_ID" : 22,
         "Course_ID" : "2222111",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "احد-ثلاثاء- خميس",
@@ -3692,6 +3703,7 @@
         "College_ID" : 22,
         "Course_ID" : "2231301",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "احد-ثلاثاء- خميس",
@@ -3703,6 +3715,7 @@
         "College_ID" : 22,
         "Course_ID" : "2211122",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "احد-ثلاثاء- خميس",
@@ -3714,6 +3727,7 @@
         "College_ID" : 22,
         "Course_ID" : "0301242",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "احد-ثلاثاء- خميس",
@@ -3725,6 +3739,7 @@
         "College_ID" : 22,
         "Course_ID" : "2231341",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "احد-ثلاثاء- خميس",
@@ -3736,6 +3751,7 @@
         "College_ID" : 22,
         "Course_ID" : "2231492",
         "Course_Section" : 1,
+        "Lecturer":"هيئة تدريس",
         "Section_Limit" : 30,
         "No_of_Reg_Stud" : 29,
         "Days" : "-",
@@ -3743,6 +3759,22 @@
         "To" : "22:00:00Z",
         "Hall" : "-"
       }
-    ]
+    ],
+
+"Flags": [
+  {
+    "Flag_ID" : 1,
+    "Flag_Type" : "Processing"
+  },
+ {
+    "Flag_ID" : 2,
+    "Flag_Type" : "Accepted"
+ },
+{
+  "Flag_ID" : 3,
+  "Flag_Type" : "Denied"
+ }
+  ]
+
   }
-  
+

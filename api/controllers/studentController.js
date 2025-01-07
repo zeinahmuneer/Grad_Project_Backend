@@ -87,7 +87,7 @@ getById: async (req, res) => {
           Student_ID: req.body.Student_ID,
         },
       });
-  
+
       // Check if student exists
       if (!student) {
         return res.status(404).json({
@@ -95,10 +95,10 @@ getById: async (req, res) => {
           authenticated: false,
         });
       }
-  
+
       // Compare the provided password with the hashed password in the database
       const passwordMatch =  bcrypt.compareSync(req.body.Password, student.Password);
-  
+
       // Handle incorrect password
       if (!passwordMatch) {
         return res.status(401).json({
@@ -265,7 +265,7 @@ canIncreaseAcademicLoad: async (req, res) => {
 
 //Create a new record in the postponeRequest table
 createPostponeRequest: async (req, res) => {
- 
+
   try {
     const { studentId, noOfSemesters, reason } = req.body;
     const result = await studentService.createPostponeRecord(studentId,noOfSemesters,reason);
@@ -281,7 +281,7 @@ createPostponeRequest: async (req, res) => {
 
 //Create a new record in the Overload table
 createOverloadRequest: async (req, res) => {
- 
+
   try {
     const { studentId, noOfHours } = req.body;
     const result = await studentService. createOverloadRecord(studentId,noOfHours);
@@ -324,7 +324,7 @@ if (!course) {
   return res.status(404).json({
     message: "Course not found",
   });}
-  
+
   const prerequisiteCourseID= await  studentService.getPrerequisiteCourseID( course.Course_ID);
   if (!prerequisiteCourseID) {
     return res.status(404).json({
@@ -340,11 +340,27 @@ if (!course) {
       CoreCourse: course.Course_Name
     },
   });
-} 
+}
  catch (error) {
     handleServerError(res, error);
   }
-},  
+},
+
+//Create a new record in the SubstituteRequest  table
+createSubstituteRequest: async (req,res)=>{
+  try {
+    const { studentId, orgcourseID } = req.body;
+    const result = await studentService. SubstituteCourse(studentId,orgcourseID);
+    res.status(201).json(result);
+
+    if(!result)
+      res.status(400).json(result);
+
+  } catch (error) {
+    handleServerError(res, error);
+  }
+
+},
 
 };
 

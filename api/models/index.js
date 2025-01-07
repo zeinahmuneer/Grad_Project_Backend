@@ -50,7 +50,7 @@ class ModelInitializer {
           }
         );
         this.AnnouncementType = AnnouncementType;
-    
+
 
     // Required_CH_of_Req Table
     class Required_CH_of_Req extends Model {}
@@ -323,6 +323,7 @@ class ModelInitializer {
           type: DataTypes.INTEGER,
           primaryKey: true,
         },
+        Lecturer: DataTypes.STRING,
         Section_Limit: DataTypes.INTEGER,
         No_of_Reg_Stud: DataTypes.INTEGER,
         Days: DataTypes.STRING,
@@ -717,7 +718,7 @@ class ModelInitializer {
       Announcement,
     } = this;
 
-   
+
   //Announcement and Announcement type associations
   Announcement.belongsTo(AnnouncementType, {
     foreignKey: 'Announcement_Type_ID',
@@ -728,7 +729,7 @@ class ModelInitializer {
     as: 'Announcements',
   });
 
-  
+
     // College and Majors Associations
     College.hasMany(Majors, {
       foreignKey: "College_ID",
@@ -829,6 +830,18 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
     as: "ScheduleCollegeDetails",
   });
 
+  // Schedule.hasMany(CurrentSemester, {
+  //   foreignKey: ['Course_ID', 'Section'],
+  //   sourceKey: ['Course_ID', 'Course_Section'],
+  //   constraints: false
+  // });
+
+  // CurrentSemester.belongsTo(Schedule, {
+  //   foreignKey: ['Course_ID', 'Section'],
+  //   targetKey: ['Course_ID', 'Course_Section'],
+  //   constraints: false
+  // });
+
     // Semester Type Associations
     SemesterType.hasMany(DegreeSemesterHours, {
       foreignKey: "Semester_ID",
@@ -894,7 +907,7 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       as: "GradeStateDetails",
     });
 
- 
+
 
     // Current Semester Associations
     Students.hasMany(CurrentSemester, {
@@ -932,6 +945,8 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       foreignKey: "Subject_State",
       as: "SubjectStateDetails",
     });
+
+
 
     // Average Mark Associations
     Students.hasMany(AvgMark, {
@@ -1065,6 +1080,7 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       as: "OriginalCourseDetails",
     });
 
+
     Flags.hasMany(SubstituteRequest, {
       foreignKey: "Flag",
       as: "SubstituteRequestsByFlag",
@@ -1133,8 +1149,8 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       await this.Courses.sync({ force: true });
       await this.Announcement.sync({force:true});
       await this.Students.sync({ force: true });
-     
-     
+
+
 
       // Sync additional tables
       await this.Schedule.sync({ force: true });
