@@ -3761,7 +3761,7 @@
       }
     ],
 
-"Flags": [
+"flags": [
   {
     "Flag_ID" : 1,
     "Flag_Type" : "Processing"

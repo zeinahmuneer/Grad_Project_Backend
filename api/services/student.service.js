@@ -486,7 +486,7 @@ catch (error) {
     });
 
 
-return newRequest;
+return {newRequest, Message:"تم قبول الطلب"};
 
 
   },
@@ -554,7 +554,7 @@ console.log("Remaining ",RemainingHours);
       });
 
 
-  return newRequest;
+      return {newRequest, Message:"تم قبول الطلب"};
 
 
     },
@@ -580,7 +580,8 @@ console.log("Remaining ",RemainingHours);
       Prereq_Course_ID:prerequisiteID,
       Timestamp:requestDateTime
         });
-return {newRequest, message:"A new record is made"};
+
+    return {newRequest, Message:"تم قبول الطلب"};
 
 
   },

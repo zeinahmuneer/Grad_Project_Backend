@@ -79,13 +79,13 @@ async function loadInitialDataFromJson() {
       });
     }
 
-       // Load Required_CH_of_Req 
+       // Load Required_CH_of_Req
        if (data.Required_CH_of_Req) {
         await Required_CH_of_Req.bulkCreate(data.Required_CH_of_Req, {
           ignoreDuplicates: true,
         });
       }
-  
+
 
     // Load Subject States
     if (data.subjectStates) {
@@ -149,40 +149,44 @@ async function loadInitialDataFromJson() {
       await Students.bulkCreate(data.students, { ignoreDuplicates: true });
     }
    //load marks
-    if (data.mark) { 
+    if (data.mark) {
       await Mark.bulkCreate(data.mark, { ignoreDuplicates: true });
     }
 
     //load calendar
-    if (data.calendar) { 
+    if (data.calendar) {
       await Calendar.bulkCreate(data.calendar, { ignoreDuplicates: true });
     }
 
      //load currentSemester
-     if (data.calendar) { 
+     if (data.calendar) {
       await CurrentSemester.bulkCreate(data.currentSemester, { ignoreDuplicates: true });
     }
 
     //load announcementType
-    if (data.announcementType) { 
+    if (data.announcementType) {
       await AnnouncementType.bulkCreate(data.announcementType, { ignoreDuplicates: true });
     }
 
 
       //load announcement
-      if (data.announcement) { 
+      if (data.announcement) {
         await Announcement.bulkCreate(data.announcement, { ignoreDuplicates: true });
       }
 
 
       //load schedule
-      if (data.schedule) { 
+      if (data.schedule) {
         await Schedule.bulkCreate(data.schedule, { ignoreDuplicates: true });
       }
 
+        //load Flags
+        if (data.flags) {
+          await Flags.bulkCreate(data.flags, { ignoreDuplicates: true });
+        }
 
 
-    
+
     console.log("Initial data loaded successfully from JSON");
   } catch (error) {
     console.error("Error loading initial data from JSON:", error);
