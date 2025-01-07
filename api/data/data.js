@@ -176,8 +176,8 @@ async function loadInitialDataFromJson() {
 
 
       //load schedule
-      if (data.schedule) {
-        await Schedule.bulkCreate(data.schedule, { ignoreDuplicates: true });
+      if (data.Schedule) {
+        await Schedule.bulkCreate(data.Schedule, { ignoreDuplicates: true });
       }
 
         //load Flags

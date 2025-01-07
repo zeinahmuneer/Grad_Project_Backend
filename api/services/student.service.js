@@ -325,6 +325,7 @@ getPrerequisiteCourseID: async function (courseID)
 
  },
 
+ //--------------------------------------------------------------------------------------------------------------
  //Count the number of times a student has failed a course
  countFailedCourse: async function(studentID, courseID)
  {
@@ -336,6 +337,7 @@ const countFailedCourse= await Mark.count({
   Grade_State:2
   } ,
 });
+console.log(countFailedCourse);
 return countFailedCourse;
 }
 catch (error) {
@@ -363,39 +365,53 @@ isCourseInSchedule: async function(courseID)
 //Get the schedule for a course
 getCourseSchedule: async function(courseID)
 {
-const checkCourse= await this.isCourseInSchedule(courseID);
-
-if(checkCourse==true)
-{
-  const schedule = await Schedule.findAll({
-    where: { Course_ID: courseID },
-    attributes: ['Days', 'From', 'To']
-  });
-  return schedule;
-}
-else return {Message:`No schedule for course: ${courseID} `}
+  const checkCourse = await this.isCourseInSchedule(courseID);
+  if (checkCourse) {
+    const schedule = await Schedule.findAll({
+      where: { Course_ID: courseID },
+      attributes: ['Course_ID','Course_Section', 'Days', 'From', 'To']
+    });
+    return schedule;
+  }
+  else
+  {
+    return { Message: `No schedule for course: ${courseID}` };
+  }
 
 },
 
 //Get enrolled courses and their schedule
 getEnrolledCoursesWSchedule: async function(studentID)
 {
-  const currentSchedule = await CurrentSemester.findAll({
-    where: {
-      Student_ID: studentID
-    },
-    include: [{
-      model: Schedule,
-      required: true,
-      on: sequelize.where(
-        sequelize.col('Current_Semester.Course_ID'),
-        '=',
-        sequelize.col('Schedule.Course_ID')
-      ),
-      attributes: ['Days', 'From', 'To', 'Course_ID']
-    }]
-  });
-return currentSchedule;
+
+    // Fetch enrolled courses for the student
+    const enrolledCourses = await CurrentSemester.findAll({
+      where: { Student_ID: studentID },
+    });
+
+    if (enrolledCourses.length === 0) {
+      console.log("No enrolled courses found for student:", studentID);
+      return [];
+    }
+
+    // Fetch the schedule for each enrolled course
+    const schedules = await Promise.all(
+      enrolledCourses.map(async (course) => {
+        const courseSchedule = await Schedule.findAll({
+          where: { Course_ID: course.Course_ID },
+          attributes: ['Course_ID','Course_Section', 'Days', 'From', 'To'],
+        });
+
+        return {
+          ...course.toJSON(), // Include course data
+          Schedule: courseSchedule, // Attach schedule data
+        };
+      })
+    );
+
+    console.log("Enrolled courses with schedule:", schedules);
+    return schedules;
+
 },
 
 
@@ -403,34 +419,43 @@ return currentSchedule;
 checkCourseConflicts:async function(studentID, orgCourseID)
 {
   try{
-  const orgCourseSchedule = await this.getCourseSchedule(orgCourseID);
-  const enrolledCoursesSchedule = await this.getEnrolledCoursesWSchedule(studentID);
+    const orgCourseSchedule = await this.getCourseSchedule(orgCourseID);
+    const enrolledCoursesSchedule = await this.getEnrolledCoursesWSchedule(studentID);
 
-  //Check for conflicts
-  for(const enrollment of enrolledCoursesSchedule)
-  {
+ // Iterate over enrolled courses to find conflicts
+ for (const enrollment of enrolledCoursesSchedule) {
+  const enrolledCourse = enrollment.Schedule;
 
-    const enrolledCourse= enrollment.Schedule;
+  if (!enrolledCourse) continue; // Skip if no schedule is attached
 
-  //Check days
-const hasCommonDays= enrolledCourse.Days.split(',').some(day => orgCourseSchedule[0].Days.includes(day));
+  // Check days overlap
+  const hasCommonDays = enrolledCourse.Days.split(',').some((day) =>
+    orgCourseSchedule[0].Days.includes(day)
+  );
 
-//Check time
-if(hasCommonDays)
-{
-  if(enrolledCourse.From < orgCourseSchedule[0].To &&  enrolledCourse.To > orgCourseSchedule[0].From)
-  return true;
-}
+  // Check time overlap
+  if (
+    hasCommonDays &&
+    enrolledCourse.From < orgCourseSchedule[0].To &&
+    enrolledCourse.To > orgCourseSchedule[0].From
+  ) {
+    console.log(
+      `Conflict found with Course ID: ${enrollment.Course_ID}, Section: ${enrollment.Section}`
+    );
+    return true;
   }
-
-  return false;
 }
+
+console.log("No conflicts found");
+return false;
+  }
 catch (error) {
   console.log(error);
       }
 
 },
 
+//----------------------------------------------------------------------------------------------------------------------
 
 // Services' processing functions
 
@@ -447,7 +472,7 @@ catch (error) {
 
    //Check if it is the allotted time to make the request
     if (requestDateTime < postponeStart || requestDateTime > postponeEnd) {
-      return { eligible: false, reason: "Request made outside the allotted postponing time" };
+      return { eligible: false, reason: "ليس موعد تقديم الطلب" };
     }
 
     console.log(studentCurrentSemesterCount);
@@ -460,7 +485,7 @@ catch (error) {
     if(postponeCount>=4)
       {
         console.log("The student has already postponed 4 times ");
-        return { eligible: false, reason: "Exceeded maximum number of postponements" };
+        return { eligible: false, reason: "يمنع تأجيل اكثر من أربع فصول" };
       }
 
  const availableSemesters= await this.getAvailableSemestersForPP(student);
@@ -514,7 +539,7 @@ console.log("Remaining ",RemainingHours);
 
    //Check if it is the allotted time to make the request
     if (requestDateTime < regStart || requestDateTime > regEnd) {
-      return { eligible: false, reason: "Request made outside the allotted Registration time" };
+      return { eligible: false, reason: "ليس موعد تقديم الطلب" };
     }
    console.log(studentCurrentCH);
    //Check if the student is has registered the max number of CH
@@ -534,7 +559,7 @@ console.log("Remaining ",RemainingHours);
       };
     }
 
-    return {eligible:false , Reason:"The student hasn't fulfilled the requirements"}
+    return {eligible:false , Reason:"لم تستوفي الشروط"}
   },
 
    //Create a new record in the Overload table
@@ -569,7 +594,7 @@ console.log("Remaining ",RemainingHours);
     const requestDateTime= new Date();
 
     if(isEnrolled==false)
-      return { eligible:false, reason: "The student is not enrolled in the prerequisite course"};
+      return { eligible:false, reason: "لم تسجل في المتطلب السابق للماده"};
 
     //Insert a record into SynchronizationRequest
     const newRequest= await SynchronizationRequest.create({
@@ -586,11 +611,13 @@ console.log("Remaining ",RemainingHours);
 
   },
 
+
+  //---------------------------------------------------------------------------------------------------------------------------
   //Create a new record in the SubstituteRequest table
   SubstituteCourse: async function(studentID, courseID)
 {
 const student = await Students.findOne({ where: { Student_ID: studentID } });
-const countFailedCourse= await this.countFailedCourse(courseID);
+const countFailedCourse= await this.countFailedCourse(studentID,courseID);
 const checkCourse=await this.isCourseInSchedule(courseID);
 const checkConflict= await this.checkCourseConflicts(studentID, courseID);
 const currentCalendar= await this.getCurrentAcademicYearAndSemester();

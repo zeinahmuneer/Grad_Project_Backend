@@ -907,6 +907,17 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       as: "GradeStateDetails",
     });
 
+    // Schedule.hasMany(CurrentSemester, {
+    //   foreignKey: 'Course_ID',
+    //   sourceKey: 'Course_ID',
+    //   constraints: false
+    // });
+
+    // CurrentSemester.belongsTo(Schedule, {
+    //   foreignKey: 'Course_ID',
+    //   targetKey: 'Course_ID',
+    //   constraints: false
+    // });
 
 
     // Current Semester Associations
