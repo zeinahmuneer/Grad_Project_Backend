@@ -8,7 +8,6 @@ const cors = require("cors");
 const config = require("../config/");
 const dbService = require("./services/db.service");
 
-
 //  express application
 
 const app = express();
@@ -67,7 +66,6 @@ app.use("/api/current-semester", currentSemesterRouter);
 app.use("/api/calendar", calendarRouter);
 app.use("/api/students", require("./routers/studentRouter"));
 app.use("/api/announcements", require("./routers/announcementRouters"));
-
 
 server.listen(config.port, () => {
   console.log(`Server is running on port ${config.port}`);
