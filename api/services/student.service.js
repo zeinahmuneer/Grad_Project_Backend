@@ -325,7 +325,7 @@ getPrerequisiteCourseID: async function (courseID)
 
  },
 
- //--------------------------------------------------------------------------------------------------------------
+
  //Count the number of times a student has failed a course
  countFailedCourse: async function(studentID, courseID)
  {
@@ -420,31 +420,39 @@ checkCourseConflicts:async function(studentID, orgCourseID)
 {
   try{
     const orgCourseSchedule = await this.getCourseSchedule(orgCourseID);
-    const enrolledCoursesSchedule = await this.getEnrolledCoursesWSchedule(studentID);
-
- // Iterate over enrolled courses to find conflicts
- for (const enrollment of enrolledCoursesSchedule) {
-  const enrolledCourse = enrollment.Schedule;
-
-  if (!enrolledCourse) continue; // Skip if no schedule is attached
-
-  // Check days overlap
-  const hasCommonDays = enrolledCourse.Days.split(',').some((day) =>
-    orgCourseSchedule[0].Days.includes(day)
-  );
-
-  // Check time overlap
-  if (
-    hasCommonDays &&
-    enrolledCourse.From < orgCourseSchedule[0].To &&
-    enrolledCourse.To > orgCourseSchedule[0].From
-  ) {
-    console.log(
-      `Conflict found with Course ID: ${enrollment.Course_ID}, Section: ${enrollment.Section}`
+    console.log("Original course schedule:", orgCourseSchedule);
+    const enrolledCoursesSchedule = await this.getEnrolledCoursesWSchedule(
+      studentID
     );
-    return true;
-  }
-}
+    console.log("Enrolled courses schedule:", enrolledCoursesSchedule);
+
+    // Iterate over enrolled courses to find conflicts
+    for (const enrollment of enrolledCoursesSchedule) {
+      const enrolledCourse = enrollment.Schedule;
+      console.log("Enrolled Course:", enrolledCourse);
+      if (!enrolledCourse) continue; // Skip if no schedule is attached
+
+      // Check days overlap
+      const hasCommonDays = enrolledCourse[0].dataValues.Days.split("-").some(
+        (day) => {
+          console.log("Day:", day.trim());
+          return orgCourseSchedule[0].Days.includes(day.trim());
+        }
+      );
+
+      console.log("Has common days:", hasCommonDays);
+      // Check time overlap
+      if (
+        hasCommonDays &&
+        enrolledCourse.From < orgCourseSchedule[0].To &&
+        enrolledCourse.To > orgCourseSchedule[0].From
+      ) {
+        console.log(
+          `Conflict found with Course ID: ${enrollment.Course_ID}, Section: ${enrollment.Section}`
+        );
+        return true;
+      }
+    }
 
 console.log("No conflicts found");
 return false;
@@ -455,7 +463,7 @@ catch (error) {
 
 },
 
-//----------------------------------------------------------------------------------------------------------------------
+
 
 // Services' processing functions
 
@@ -612,7 +620,6 @@ console.log("Remaining ",RemainingHours);
   },
 
 
-  //---------------------------------------------------------------------------------------------------------------------------
   //Create a new record in the SubstituteRequest table
   SubstituteCourse: async function(studentID, courseID)
 {
