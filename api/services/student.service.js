@@ -380,6 +380,7 @@ const studentService = {
             return orgCourseSchedule[0].Days.includes(day.trim());
           }
         );
+
         console.log("Has common days:", hasCommonDays);
         // Check time overlap
         if (
