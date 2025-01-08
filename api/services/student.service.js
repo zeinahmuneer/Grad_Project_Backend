@@ -590,7 +590,7 @@ console.log("Remaining ",RemainingHours);
     const student = await Students.findOne({ where: { Student_ID: studentID } });
     const currentCalendar= await this.getCurrentAcademicYearAndSemester();
     const prerequisiteID= await this.getPrerequisiteCourseID(courseID);
-    const isEnrolled= await this.isStudentEnrolledInPrerequisite(prerequisiteID);
+    const isEnrolled= await this.isStudentEnrolledInPrerequisite(studentID, prerequisiteID);
     const requestDateTime= new Date();
 
     if(isEnrolled==false)
