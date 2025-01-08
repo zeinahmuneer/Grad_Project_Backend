@@ -31,26 +31,24 @@ class ModelInitializer {
     );
     this.SuccessType = SuccessType;
 
-
-        // Announcement Type
-        class AnnouncementType extends Model {}
-        AnnouncementType.init(
-          {
-            Announcement_Type_ID: {
-              type: DataTypes.INTEGER,
-              primaryKey: true,
-            },
-            Announcement_Type: DataTypes.STRING,
-          },
-          {
-            sequelize,
-            modelName: "Announcement_Type",
-            tableName: "Announcement_Type",
-            timestamps: false,
-          }
-        );
-        this.AnnouncementType = AnnouncementType;
-
+    // Announcement Type
+    class AnnouncementType extends Model {}
+    AnnouncementType.init(
+      {
+        Announcement_Type_ID: {
+          type: DataTypes.INTEGER,
+          primaryKey: true,
+        },
+        Announcement_Type: DataTypes.STRING,
+      },
+      {
+        sequelize,
+        modelName: "Announcement_Type",
+        tableName: "Announcement_Type",
+        timestamps: false,
+      }
+    );
+    this.AnnouncementType = AnnouncementType;
 
     // Required_CH_of_Req Table
     class Required_CH_of_Req extends Model {}
@@ -75,8 +73,8 @@ class ModelInitializer {
       },
       {
         sequelize,
-        modelName: 'Required_CH_of_Req',
-        tableName: 'Required_CH_of_Req',
+        modelName: "Required_CH_of_Req",
+        tableName: "Required_CH_of_Req",
         timestamps: false,
       }
     );
@@ -250,22 +248,21 @@ class ModelInitializer {
     );
     this.Courses = Courses;
 
-
     // Announcement
     class Announcement extends Model {}
     Announcement.init(
       {
         Announcement_ID: {
           type: DataTypes.INTEGER,
-          autoIncrement:true,
+          autoIncrement: true,
           primaryKey: true,
         },
-       Announcement_Type_ID: {
-       type: DataTypes.INTEGER,
-       allowNull: false,
-       },
-       Title: DataTypes.STRING,
-       Body: DataTypes.TEXT,
+        Announcement_Type_ID: {
+          type: DataTypes.INTEGER,
+          allowNull: false,
+        },
+        Title: DataTypes.STRING,
+        Body: DataTypes.TEXT,
       },
       {
         sequelize,
@@ -275,8 +272,6 @@ class ModelInitializer {
       }
     );
     this.Announcement = Announcement;
-
-
 
     // Students
     class Students extends Model {}
@@ -439,7 +434,7 @@ class ModelInitializer {
           type: DataTypes.INTEGER,
           primaryKey: true,
         },
-        Course_ID:  {
+        Course_ID: {
           type: DataTypes.TEXT,
           primaryKey: true,
         },
@@ -718,17 +713,15 @@ class ModelInitializer {
       Announcement,
     } = this;
 
-
-  //Announcement and Announcement type associations
-  Announcement.belongsTo(AnnouncementType, {
-    foreignKey: 'Announcement_Type_ID',
-    as: 'Type',
-  });
-  AnnouncementType.hasMany(Announcement, {
-    foreignKey: 'Announcement_Type_ID',
-    as: 'Announcements',
-  });
-
+    //Announcement and Announcement type associations
+    Announcement.belongsTo(AnnouncementType, {
+      foreignKey: "Announcement_Type_ID",
+      as: "Type",
+    });
+    AnnouncementType.hasMany(Announcement, {
+      foreignKey: "Announcement_Type_ID",
+      as: "Announcements",
+    });
 
     // College and Majors Associations
     College.hasMany(Majors, {
@@ -740,7 +733,6 @@ class ModelInitializer {
       as: "ParentCollege",
     });
 
-
     // Majors and Prerequisite Associations
     Majors.hasMany(Prerequisite, {
       foreignKey: "Major_ID",
@@ -751,28 +743,25 @@ class ModelInitializer {
       as: "RelatedMajor",
     });
 
-//Required CH  Associations
-Majors.hasMany(Required_CH_of_Req, {
-  foreignKey: 'Major_ID',
-  as: 'MajorRequiredCHs',
-});
-Required_CH_of_Req.belongsTo(Majors, {
-  foreignKey: 'Major_ID',
-  as: 'RelatedMajor',
-});
+    //Required CH  Associations
+    Majors.hasMany(Required_CH_of_Req, {
+      foreignKey: "Major_ID",
+      as: "MajorRequiredCHs",
+    });
+    Required_CH_of_Req.belongsTo(Majors, {
+      foreignKey: "Major_ID",
+      as: "RelatedMajor",
+    });
 
-// RequisiteType and Required_CH_of_Req Associations
-RequisiteType.hasMany(Required_CH_of_Req, {
-  foreignKey: 'Requisite_ID',
-  as: 'RequisiteRequiredCHs',
-});
-Required_CH_of_Req.belongsTo(RequisiteType, {
-  foreignKey: 'Requisite_ID',
-  as: 'RelatedRequisiteType',
-});
-
-
-
+    // RequisiteType and Required_CH_of_Req Associations
+    RequisiteType.hasMany(Required_CH_of_Req, {
+      foreignKey: "Requisite_ID",
+      as: "RequisiteRequiredCHs",
+    });
+    Required_CH_of_Req.belongsTo(RequisiteType, {
+      foreignKey: "Requisite_ID",
+      as: "RelatedRequisiteType",
+    });
 
     // Courses Prerequisite Associations
     Courses.hasMany(Prerequisite, {
@@ -812,35 +801,35 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       as: "StudentDegreeType",
     });
 
-      //Schedule Associations
-  Courses.hasMany(Schedule, {
-    foreignKey: "Course_ID",
-    as: "ScheduleCourses",
-  });
-  Schedule.belongsTo(Courses, {
-    foreignKey: "Course_ID",
-    as: "ScheduleCourseDetails",
-  });
-  College.hasMany(Schedule, {
-    foreignKey: "College_ID",
-    as: "ScheduleCollege",
-  });
-  Schedule.belongsTo(College, {
-    foreignKey: "College_ID",
-    as: "ScheduleCollegeDetails",
-  });
+    //Schedule Associations
+    Courses.hasMany(Schedule, {
+      foreignKey: "Course_ID",
+      as: "ScheduleCourses",
+    });
+    Schedule.belongsTo(Courses, {
+      foreignKey: "Course_ID",
+      as: "ScheduleCourseDetails",
+    });
+    College.hasMany(Schedule, {
+      foreignKey: "College_ID",
+      as: "ScheduleCollege",
+    });
+    Schedule.belongsTo(College, {
+      foreignKey: "College_ID",
+      as: "ScheduleCollegeDetails",
+    });
 
-  // Schedule.hasMany(CurrentSemester, {
-  //   foreignKey: ['Course_ID', 'Section'],
-  //   sourceKey: ['Course_ID', 'Course_Section'],
-  //   constraints: false
-  // });
+    // Schedule.hasMany(CurrentSemester, {
+    //   foreignKey: ['Course_ID', 'Section'],
+    //   sourceKey: ['Course_ID', 'Course_Section'],
+    //   constraints: false
+    // });
 
-  // CurrentSemester.belongsTo(Schedule, {
-  //   foreignKey: ['Course_ID', 'Section'],
-  //   targetKey: ['Course_ID', 'Course_Section'],
-  //   constraints: false
-  // });
+    // CurrentSemester.belongsTo(Schedule, {
+    //   foreignKey: ['Course_ID', 'Section'],
+    //   targetKey: ['Course_ID', 'Course_Section'],
+    //   constraints: false
+    // });
 
     // Semester Type Associations
     SemesterType.hasMany(DegreeSemesterHours, {
@@ -919,7 +908,6 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
     //   constraints: false
     // });
 
-
     // Current Semester Associations
     Students.hasMany(CurrentSemester, {
       foreignKey: "Student_ID",
@@ -956,8 +944,6 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       foreignKey: "Subject_State",
       as: "SubjectStateDetails",
     });
-
-
 
     // Average Mark Associations
     Students.hasMany(AvgMark, {
@@ -1091,7 +1077,6 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       as: "OriginalCourseDetails",
     });
 
-
     Flags.hasMany(SubstituteRequest, {
       foreignKey: "Flag",
       as: "SubstituteRequestsByFlag",
@@ -1139,7 +1124,6 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
     });
   }
 
-
   // Synchronization method
   static async syncDatabase() {
     try {
@@ -1158,10 +1142,8 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
       await this.College.sync({ force: true });
       await this.Majors.sync({ force: true });
       await this.Courses.sync({ force: true });
-      await this.Announcement.sync({force:true});
+      await this.Announcement.sync({ force: true });
       await this.Students.sync({ force: true });
-
-
 
       // Sync additional tables
       await this.Schedule.sync({ force: true });
@@ -1190,7 +1172,7 @@ Required_CH_of_Req.belongsTo(RequisiteType, {
 ModelInitializer.init();
 
 // Sync database
-//ModelInitializer.syncDatabase(); //run this if you add a new table
+// ModelInitializer.syncDatabase(); //run this if you add a new table
 
 // Export models and sync method
 module.exports = {
