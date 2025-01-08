@@ -516,16 +516,15 @@ const studentService = {
   },
 
   //Create a new record in SynchronizationRequest for one pair of courses
-  synchronizeOneCourse: async function (studentID, courseID) {
-    const student = await Students.findOne({
-      where: { Student_ID: studentID },
-    });
-    const currentCalendar = await this.getCurrentAcademicYearAndSemester();
-    const prerequisiteID = await this.getPrerequisiteCourseID(courseID);
-    const isEnrolled = await this.isStudentEnrolledInPrerequisite(
-      prerequisiteID
-    );
-    const requestDateTime = new Date();
+
+  synchronizeOneCourse: async function (studentID, courseID)
+  {
+    const student = await Students.findOne({ where: { Student_ID: studentID } });
+    const currentCalendar= await this.getCurrentAcademicYearAndSemester();
+    const prerequisiteID= await this.getPrerequisiteCourseID(courseID);
+    const isEnrolled= await this.isStudentEnrolledInPrerequisite(studentID, prerequisiteID);
+    const requestDateTime= new Date();
+
 
     if (isEnrolled == false)
       return { eligible: false, reason: "لم تسجل في المتطلب السابق للماده" };
