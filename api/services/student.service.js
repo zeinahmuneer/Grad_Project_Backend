@@ -399,7 +399,7 @@ getEnrolledCoursesWSchedule: async function(studentID)
       enrolledCourses.map(async (course) => {
         const courseSchedule = await Schedule.findAll({
           where: { Course_ID: course.Course_ID },
-          attributes: ['Course_ID','Course_Section', 'Days', 'From', 'To'],
+          attributes: ['Course_ID','Course_Section', 'Days', 'From', 'To']
         });
 
         return {
@@ -421,16 +421,14 @@ checkCourseConflicts:async function(studentID, orgCourseID)
   try{
     const orgCourseSchedule = await this.getCourseSchedule(orgCourseID);
     console.log("Original course schedule:", orgCourseSchedule);
-    const enrolledCoursesSchedule = await this.getEnrolledCoursesWSchedule(
-      studentID
-    );
+    const enrolledCoursesSchedule = await this.getEnrolledCoursesWSchedule( studentID);
     console.log("Enrolled courses schedule:", enrolledCoursesSchedule);
 
     // Iterate over enrolled courses to find conflicts
     for (const enrollment of enrolledCoursesSchedule) {
       const enrolledCourse = enrollment.Schedule;
       console.log("Enrolled Course:", enrolledCourse);
-      if (!enrolledCourse) continue; // Skip if no schedule is attached
+      if (enrolledCourse==0) continue; // Skip if no schedule is attached
 
       // Check days overlap
       const hasCommonDays = enrolledCourse[0].dataValues.Days.split("-").some(
@@ -444,12 +442,10 @@ checkCourseConflicts:async function(studentID, orgCourseID)
       // Check time overlap
       if (
         hasCommonDays &&
-        enrolledCourse.From < orgCourseSchedule[0].To &&
-        enrolledCourse.To > orgCourseSchedule[0].From
+        enrolledCourse[0].dataValues.From < orgCourseSchedule[0].dataValues.To &&
+        enrolledCourse[0].dataValues.To > orgCourseSchedule[0].dataValues.From
       ) {
-        console.log(
-          `Conflict found with Course ID: ${enrollment.Course_ID}, Section: ${enrollment.Section}`
-        );
+        console.log(`Conflict found with Course ID: ${enrollment.Course_ID}, Section: ${enrollment.Section}`);
         return true;
       }
     }
@@ -462,6 +458,18 @@ catch (error) {
       }
 
 },
+
+hasNeverTakenCourse: async function(studentID, courseID) {
+  const courseHistory = await Mark.findOne({
+      where: {
+          Student_ID: studentID,
+          Course_ID: courseID
+      }
+  });
+
+  return courseHistory === null; // returns true if student has never taken the course
+},
+
 
 
 
@@ -630,13 +638,15 @@ const checkConflict= await this.checkCourseConflicts(studentID, courseID);
 const currentCalendar= await this.getCurrentAcademicYearAndSemester();
 const requestDateTime= new Date();
 
+const hasNeverTakenCourse = await this.hasNeverTakenCourse(studentID, courseID);
 
 console.log(countFailedCourse);
+console.log(hasNeverTakenCourse);
 console.log(checkCourse);
 console.log(checkConflict);
 
 //Check for eligibility
-if(countFailedCourse >=3 || checkCourse==false || checkConflict==true )
+if (countFailedCourse >= 3 || (hasNeverTakenCourse && !checkCourse) ||  (hasNeverTakenCourse &&!checkConflict))
 {
 const newRequest= await SubstituteRequest.create({
   Student_ID: student.Student_ID,
