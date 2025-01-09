@@ -238,6 +238,32 @@ canPostponeSemester: async (req, res) => {
 },
 
 // Is the student eligible for increasing academic load
+initialOverloadCheck: async (req, res) => {
+  try {
+    const student = await Students.findOne({
+      where: {
+        Student_ID: req.params.studentId,
+      },
+    });
+
+    if (!student) {
+      return res.status(404).json({
+        message: "Student not found",
+      });
+    }
+    const initialOverloadCheck = await studentService.initialOverloadCheck(student);
+    res.status(200).json({
+      message: "Student found",
+      data: {
+        initialOverloadCheck,
+      },
+    });
+  } catch (error) {
+    handleServerError(res, error);
+  }
+},
+
+// Is the student eligible for increasing academic load
 canIncreaseAcademicLoad: async (req, res) => {
   try {
     const student = await Students.findOne({

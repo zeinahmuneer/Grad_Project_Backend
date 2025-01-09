@@ -459,6 +459,7 @@ catch (error) {
 
 },
 
+//Ensures the student has never taken a course before
 hasNeverTakenCourse: async function(studentID, courseID) {
   const courseHistory = await Mark.findOne({
       where: {
@@ -467,9 +468,27 @@ hasNeverTakenCourse: async function(studentID, courseID) {
       }
   });
 
-  return courseHistory === null; // returns true if student has never taken the course
+  return courseHistory === null; //if the select statement returns null, that means there are no records, which also means true=? student has never taken this course
 },
 
+//Initial check for overload after login
+initialOverloadCheck: async function (student) {
+  const studentCurrentCH = await this.getStudentCurrentCH(student);
+  const RequiredCH=await this.getMajorCH(student);
+  const StudentTotalCH=await this.getStudentTotalCH(student);
+
+
+  const RemainingHours= RequiredCH-StudentTotalCH-studentCurrentCH;
+console.log("Required ",RequiredCH);
+console.log("Student ",StudentTotalCH);
+console.log("Remaining ",RemainingHours);
+
+if(RemainingHours>=1 && RemainingHours<=3)
+  return true;
+else return false;
+
+
+},
 
 
 
