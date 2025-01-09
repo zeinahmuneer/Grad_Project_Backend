@@ -322,8 +322,8 @@ class ModelInitializer {
         Section_Limit: DataTypes.INTEGER,
         No_of_Reg_Stud: DataTypes.INTEGER,
         Days: DataTypes.STRING,
-        From: DataTypes.TIME,
-        To: DataTypes.TIME,
+        From:DataTypes.TIME,
+        To:DataTypes.TIME,
         Hall: DataTypes.STRING,
       },
       {
@@ -896,17 +896,6 @@ class ModelInitializer {
       as: "GradeStateDetails",
     });
 
-    // Schedule.hasMany(CurrentSemester, {
-    //   foreignKey: 'Course_ID',
-    //   sourceKey: 'Course_ID',
-    //   constraints: false
-    // });
-
-    // CurrentSemester.belongsTo(Schedule, {
-    //   foreignKey: 'Course_ID',
-    //   targetKey: 'Course_ID',
-    //   constraints: false
-    // });
 
     // Current Semester Associations
     Students.hasMany(CurrentSemester, {
