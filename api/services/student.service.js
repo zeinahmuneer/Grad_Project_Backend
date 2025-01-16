@@ -513,7 +513,7 @@ else return false;
     console.log(studentCurrentSemesterCount);
   //Check if the student is enrolled in any courses
   if(studentCurrentSemesterCount>0){
-    return {eligible:false, reason:"The student is enrolled in courses"};
+    return {eligible:false, reason:"الطالب مسجل في مواد بالفصل الحالي"};
   }
       console.log(postponeCount);
      //check if the student has already postponed 4 times

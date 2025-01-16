@@ -91,22 +91,19 @@ getById: async (req, res) => {
       // Check if student exists
       if (!student) {
         return res.status(404).json({
-          message: "Student not found",
+          message: "لم يتم العثور على الطالب",
           authenticated: false,
         });
       }
-
       // Compare the provided password with the hashed password in the database
       const passwordMatch =  bcrypt.compareSync(req.body.Password, student.Password);
-
       // Handle incorrect password
       if (!passwordMatch) {
         return res.status(401).json({
-          message: "Incorrect password",
+          message: "كلمة السر غير صحيحه",
           authenticated: false,
         });
       }
-
       // If everything is correct, return success response
       res.status(200).json({
         message: "Student logged in successfully",
@@ -139,7 +136,7 @@ getById: async (req, res) => {
 
       if (!student) {
         return res.status(404).json({
-          message: "Student not found",
+          message: "لم يتم العثور على الطالب",
         });
       }
       const isExpectedToGraduate = await studentService.isGraduate(
@@ -167,7 +164,7 @@ getById: async (req, res) => {
 
       if (!student) {
         return res.status(404).json({
-          message: "Student not found",
+          message: "لم يتم العثور على الطالب",
         });
       }
       const isFirstSemester = await studentService.checkFirstSemester(student);
@@ -194,7 +191,7 @@ isPreGraduate: async (req, res) => {
 
     if (!student) {
       return res.status(404).json({
-        message: "Student not found",
+     message: "لم يتم العثور على الطالب",
       });
     }
     const isStudentPreGraduate = await studentService.isPreGraduate(
@@ -222,7 +219,7 @@ canPostponeSemester: async (req, res) => {
 
     if (!student) {
       return res.status(404).json({
-        message: "Student not found",
+     message: "لم يتم العثور على الطالب",
       });
     }
     const isAllowedToPostpone = await studentService.canPostponeSemester(student);
@@ -248,7 +245,7 @@ initialOverloadCheck: async (req, res) => {
 
     if (!student) {
       return res.status(404).json({
-        message: "Student not found",
+     message: "لم يتم العثور على الطالب",
       });
     }
     const initialOverloadCheck = await studentService.initialOverloadCheck(student);
@@ -274,7 +271,7 @@ canIncreaseAcademicLoad: async (req, res) => {
 
     if (!student) {
       return res.status(404).json({
-        message: "Student not found",
+     message: "لم يتم العثور على الطالب",
       });
     }
     const isAllowedToIncrease = await studentService.canIncreaseAcademicLoad(student);
