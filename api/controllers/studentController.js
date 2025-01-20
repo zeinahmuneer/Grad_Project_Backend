@@ -133,15 +133,12 @@ getById: async (req, res) => {
           Student_ID: req.params.studentId,
         },
       });
-
       if (!student) {
         return res.status(404).json({
           message: "لم يتم العثور على الطالب",
         });
       }
-      const isExpectedToGraduate = await studentService.isGraduate(
-        student
-      );
+      const isExpectedToGraduate = await studentService.isGraduate( student  );
       res.status(200).json({
         message: "Student found",
         data: {

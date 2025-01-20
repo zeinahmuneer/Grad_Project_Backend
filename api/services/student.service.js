@@ -19,7 +19,7 @@ const {
     SubstituteRequest,
     Flags
   } = require("../models/index");
-const { Op } = require("sequelize"); // Import Sequelize operators
+const { Op } = require("sequelize");
 
 const studentService = {
 
